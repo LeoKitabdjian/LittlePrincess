@@ -50,8 +50,13 @@ namespace UnityChan
 		static int jumpState = Animator.StringToHash ("Base Layer.Jump");
 		static int restState = Animator.StringToHash ("Base Layer.Rest");
 
-		// 初期化
-		void Start ()
+		public float gravity = 9.81f;
+		public Transform gravityTarget;
+		public float autoOrientSpeed = 1f;
+
+
+        // 初期化
+        void Start ()
 		{
 			// Animatorコンポーネントを取得する
 			anim = GetComponent<Animator> ();
@@ -75,7 +80,7 @@ namespace UnityChan
 			anim.SetFloat ("Direction", h); 						// Animator側で設定している"Direction"パラメタにhを渡す
 			anim.speed = animSpeed;								// Animatorのモーション再生速度に animSpeedを設定する
 			currentBaseState = anim.GetCurrentAnimatorStateInfo (0);	// 参照用のステート変数にBase Layer (0)の現在のステートを設定する
-			rb.useGravity = true;//ジャンプ中に重力を切るので、それ以外は重力の影響を受けるようにする
+			//rb.useGravity = true;//ジャンプ中に重力を切るので、それ以外は重力の影響を受けるようにする
 		
 		
 		
@@ -176,6 +181,20 @@ namespace UnityChan
 					anim.SetBool ("Rest", false);
 				}
 			}
+			ProcessGravity();
+		}
+
+		void ProcessGravity()
+		{
+			Vector3 diff = transform.position - gravityTarget.position;
+			rb.AddForce(-diff.normalized * gravity * (rb.mass));
+			AutoOrient(-diff);
+		}
+
+		void AutoOrient(Vector3 down)
+		{
+			Quaternion orientationDirection = Quaternion.FromToRotation(-transform.up, down) * transform.rotation;
+			transform.rotation = Quaternion.Slerp(transform.rotation, orientationDirection, autoOrientSpeed * Time.deltaTime);
 		}
 
 		void OnGUI ()
