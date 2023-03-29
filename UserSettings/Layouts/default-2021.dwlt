@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 16
+  controlID: 91
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,15 +68,15 @@ MonoBehaviour:
     y: 0
     width: 364
     height: 730.8
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
   - {fileID: 13}
   - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 1
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,10 +94,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 290.4
+    width: 296
     height: 432.8
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 17
+  controlID: 92
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 18
+  controlID: 93
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -266,9 +266,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 290.4
+    x: 296
     y: 0
-    width: 881.6
+    width: 876
     height: 432.8
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -338,7 +338,7 @@ MonoBehaviour:
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
-  currentTrackingStatusHasUpdate: 0
+  currentTrackingStatusHasUpdate: 1
   currentStatusEntriesHasUpdate: 1
   repositoryProgressHasUpdate: 1
   appManagerProgressHasUpdate: 1
@@ -480,7 +480,7 @@ MonoBehaviour:
       tracking: 
     remoteBranches: []
   changesView:
-    currentBranchHasUpdate: 1
+    currentBranchHasUpdate: 0
     currentStatusEntriesHasUpdate: 1
     currentLocksHasUpdate: 1
     commitBody: 
@@ -491,11 +491,49 @@ MonoBehaviour:
       assets:
         keys:
         - 00000000000000001000000000000000
-        - 082cd2a006ab85f489e45f48f72311e2
-        - 137e2ae3265f30749b2ee65b0640d6fc
+        - e34b0e3fe02c85b46aa8360c2587f201
+        - f3f5ce219f22692419c94f44ae69e4ab
+        - b40b084c93263644e90a7bc25f49c3ad
+        - bf24d13316b38c5408f1cd6f0f49acee
+        - dfab136da22212c4588fa72ed31c4c30
+        - 1706f124cd2d3994e8a12374e3044d7c
+        - fb20e504b79974449bf51c0b2ecbf2b0
+        - b4afb3ebef01bd64391e3860916bfa3c
+        - 69d0f2d8267c8db4994d2d81aa115dae
+        - f495ad6eea92fc44a815f950010431cd
+        - 7625437f759d38540a27014ea9853ca0
+        - af1a8fc188477464085639219320f043
+        - 097743ae49f4a7049b7d1c034e2e85ac
+        - 07131f765ace5744087e4ed165d47200
+        - 011b177313deb9f4e95a07db26ffb2e1
+        - ecd1cb9e1fcf9b1438321b4af158e884
+        - 7a338851b67050f48af037d7e1352fdf
+        - d0158190c1ba99d40bd22dedf08a9300
+        - 244e6e4948e62c042bd0b373b80b3f13
+        - fc5f18c65ef832c44b7d76e3eda4e6f2
+        - 389a8269059bea94793651f0df5c7c94
+        - 22e605c9f1011ca4e911701ad3f2d6de
+        - f415b320cb609364fac2ab3cb50d1f45
+        - 4b6baf4bf6c421342b7c46b5efaed8f4
+        - c6069487e66ba2642911052e7a37ea07
+        - e3f586e722096884b98216fb4113ef83
+        - b5e08904c0f060e48800be9adf6b52e2
+        - 1a0e1d886a9cd1d458aaa9756398ef72
+        - 7a4fb7fee45afbc47a936f18e79d19bd
+        - d73a4cb0aacefd243ac6e49b59baebd5
+        - a98cc37e9c333614985ae8cbb0b4e0e3
+        - 193f64a8474d75640bfafd65946b87c0
+        - 8cc413e87a06f794683b0fb5fdaa3b70
+        - 6d7347fba51d7fb459dd83e271f19e8f
+        - 4e5524098ec36d5418f8f91c0a9425f7
+        - 377b80867e6a5674dbed12675227672b
+        - 555903d6f77ec41479fe85aee485b2c7
+        - 1fe741cadcc00fe4e932328d51bd9c28
+        - f5241d83a5ab30e4e994ff80d119f192
+        - f1c1c2b580b3dfc4eba49b4525688798
+        - f6e815d27a3011d41b32602c9d7c8b56
         - 6ea315d0fd7389c41b19996891e99ae3
         - a4d5b3c152b5ea44da07a13b05007ec8
-        - 0000000000000000e100000000000000
         values:
         - path: Assets
           label: Assets
@@ -515,8 +553,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Resources
-          label: Resources
+        - path: Assets\Prefabs
+          label: Prefabs
           level: 1
           isFolder: 1
           isContainer: 0
@@ -533,9 +571,27 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Resources\BillingMode.json
-          label: BillingMode.json
+        - path: Assets\Prefabs\Materials
+          label: Materials
           level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Prefabs\Materials\Arbre.mat
+          label: Arbre.mat
+          level: 3
           isFolder: 0
           isContainer: 1
           isCollapsed: 0
@@ -545,10 +601,731 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets\Resources\BillingMode.json
+            path: Assets\Prefabs\Materials\Arbre.mat
             fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
-              Folder\\Projet\\LittlePrincess\\Assets\\Resources\\BillingMode.json"
-            projectPath: Assets\Resources\BillingMode.json
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Arbre.mat"
+            projectPath: Assets\Prefabs\Materials\Arbre.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Arbre.png
+          label: Arbre.png
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Arbre.png
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Arbre.png"
+            projectPath: Assets\Prefabs\Materials\Arbre.png
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Batiment.mat
+          label: Batiment.mat
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Batiment.mat
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Batiment.mat"
+            projectPath: Assets\Prefabs\Materials\Batiment.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Bordure_pelouse.mat
+          label: Bordure_pelouse.mat
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Bordure_pelouse.mat
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Bordure_pelouse.mat"
+            projectPath: Assets\Prefabs\Materials\Bordure_pelouse.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Bordure_pelouse_interieure.mat
+          label: Bordure_pelouse_interieure.mat
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Bordure_pelouse_interieure.mat
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Bordure_pelouse_interieure.mat"
+            projectPath: Assets\Prefabs\Materials\Bordure_pelouse_interieure.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\dessous_entree.mat
+          label: dessous_entree.mat
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\dessous_entree.mat
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\dessous_entree.mat"
+            projectPath: Assets\Prefabs\Materials\dessous_entree.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\dessous_entree.png
+          label: dessous_entree.png
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\dessous_entree.png
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\dessous_entree.png"
+            projectPath: Assets\Prefabs\Materials\dessous_entree.png
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\devant_entree.mat
+          label: devant_entree.mat
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\devant_entree.mat
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\devant_entree.mat"
+            projectPath: Assets\Prefabs\Materials\devant_entree.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\devant_entree.png
+          label: devant_entree.png
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\devant_entree.png
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\devant_entree.png"
+            projectPath: Assets\Prefabs\Materials\devant_entree.png
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Material.011.mat
+          label: Material.011.mat
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Material.011.mat
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Material.011.mat"
+            projectPath: Assets\Prefabs\Materials\Material.011.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Material.014.mat
+          label: Material.014.mat
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Material.014.mat
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Material.014.mat"
+            projectPath: Assets\Prefabs\Materials\Material.014.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Materials
+          label: Materials
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Prefabs\Materials\Materials\Arbre.mat
+          label: Arbre.mat
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Materials\Arbre.mat
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Arbre.mat"
+            projectPath: Assets\Prefabs\Materials\Materials\Arbre.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Materials\Batiment.mat
+          label: Batiment.mat
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Materials\Batiment.mat
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Batiment.mat"
+            projectPath: Assets\Prefabs\Materials\Materials\Batiment.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Materials\Bordure_pelouse.mat
+          label: Bordure_pelouse.mat
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Materials\Bordure_pelouse.mat
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Bordure_pelouse.mat"
+            projectPath: Assets\Prefabs\Materials\Materials\Bordure_pelouse.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Materials\Bordure_pelouse_interieure.mat
+          label: Bordure_pelouse_interieure.mat
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Materials\Bordure_pelouse_interieure.mat
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Bordure_pelouse_interieure.mat"
+            projectPath: Assets\Prefabs\Materials\Materials\Bordure_pelouse_interieure.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Materials\dessous_entree.mat
+          label: dessous_entree.mat
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Materials\dessous_entree.mat
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\dessous_entree.mat"
+            projectPath: Assets\Prefabs\Materials\Materials\dessous_entree.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Materials\devant_entree.mat
+          label: devant_entree.mat
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Materials\devant_entree.mat
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\devant_entree.mat"
+            projectPath: Assets\Prefabs\Materials\Materials\devant_entree.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Materials\Material.011.mat
+          label: Material.011.mat
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Materials\Material.011.mat
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Material.011.mat"
+            projectPath: Assets\Prefabs\Materials\Materials\Material.011.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Materials\Material.014.mat
+          label: Material.014.mat
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Materials\Material.014.mat
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Material.014.mat"
+            projectPath: Assets\Prefabs\Materials\Materials\Material.014.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Materials\Orange.mat
+          label: Orange.mat
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Materials\Orange.mat
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Orange.mat"
+            projectPath: Assets\Prefabs\Materials\Materials\Orange.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Materials\Pelouse.mat
+          label: Pelouse.mat
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Materials\Pelouse.mat
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Pelouse.mat"
+            projectPath: Assets\Prefabs\Materials\Materials\Pelouse.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Materials\Pilier.mat
+          label: Pilier.mat
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Materials\Pilier.mat
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Pilier.mat"
+            projectPath: Assets\Prefabs\Materials\Materials\Pilier.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Materials\Red.mat
+          label: Red.mat
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Materials\Red.mat
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Red.mat"
+            projectPath: Assets\Prefabs\Materials\Materials\Red.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Materials\Sol.mat
+          label: Sol.mat
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Materials\Sol.mat
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Sol.mat"
+            projectPath: Assets\Prefabs\Materials\Materials\Sol.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Materials\Toit_entree.mat
+          label: Toit_entree.mat
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Materials\Toit_entree.mat
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Toit_entree.mat"
+            projectPath: Assets\Prefabs\Materials\Materials\Toit_entree.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Materials\Tour.mat
+          label: Tour.mat
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Materials\Tour.mat
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Tour.mat"
+            projectPath: Assets\Prefabs\Materials\Materials\Tour.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Orange.mat
+          label: Orange.mat
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Orange.mat
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Orange.mat"
+            projectPath: Assets\Prefabs\Materials\Orange.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Orange.png
+          label: Orange.png
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Orange.png
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Orange.png"
+            projectPath: Assets\Prefabs\Materials\Orange.png
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Pelouse.mat
+          label: Pelouse.mat
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Pelouse.mat
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Pelouse.mat"
+            projectPath: Assets\Prefabs\Materials\Pelouse.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Pilier.mat
+          label: Pilier.mat
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Pilier.mat
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Pilier.mat"
+            projectPath: Assets\Prefabs\Materials\Pilier.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Pilier.png
+          label: Pilier.png
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Pilier.png
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Pilier.png"
+            projectPath: Assets\Prefabs\Materials\Pilier.png
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Red.mat
+          label: Red.mat
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Red.mat
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Red.mat"
+            projectPath: Assets\Prefabs\Materials\Red.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Red.png
+          label: Red.png
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Red.png
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Red.png"
+            projectPath: Assets\Prefabs\Materials\Red.png
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Sol.mat
+          label: Sol.mat
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Sol.mat
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Sol.mat"
+            projectPath: Assets\Prefabs\Materials\Sol.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Test.fbx
+          label: Test.fbx
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Test.fbx
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Test.fbx"
+            projectPath: Assets\Prefabs\Materials\Test.fbx
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Toit_entree.mat
+          label: Toit_entree.mat
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Toit_entree.mat
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Toit_entree.mat"
+            projectPath: Assets\Prefabs\Materials\Toit_entree.mat
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Toit_entree.png
+          label: Toit_entree.png
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Toit_entree.png
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Toit_entree.png"
+            projectPath: Assets\Prefabs\Materials\Toit_entree.png
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
+        - path: Assets\Prefabs\Materials\Tour.mat
+          label: Tour.mat
+          level: 3
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Prefabs\Materials\Tour.mat
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Tour.mat"
+            projectPath: Assets\Prefabs\Materials\Tour.mat
             originalPath: 
             indexStatus: 1
             workTreeStatus: 1
@@ -587,35 +1364,15 @@ MonoBehaviour:
               Folder\\Projet\\LittlePrincess\\Assets\\Scenes\\Planet 1.unity"
             projectPath: Assets\Scenes\Planet 1.unity
             originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\ProjectVersion.txt
-          label: ProjectVersion.txt
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\ProjectVersion.txt
-            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
-              Folder\\Projet\\LittlePrincess\\ProjectSettings\\ProjectVersion.txt"
-            projectPath: ProjectSettings\ProjectVersion.txt
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
+            indexStatus: 0
+            workTreeStatus: 5
       folders:
         keys:
         - Assets
-        - Assets\Resources
+        - Assets\Prefabs
+        - Assets\Prefabs\Materials
+        - Assets\Prefabs\Materials\Materials
         - Assets\Scenes
-        - Packages
-        - ProjectSettings
-        - UserSettings
         values:
         - path: Assets
           label: Assets
@@ -635,9 +1392,45 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Resources
-          label: Resources
+        - path: Assets\Prefabs
+          label: Prefabs
           level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Prefabs\Materials
+          label: Materials
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Prefabs\Materials\Materials
+          label: Materials
+          level: 3
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -656,60 +1449,6 @@ MonoBehaviour:
         - path: Assets\Scenes
           label: Scenes
           level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Packages
-          label: Packages
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: ProjectSettings
-          label: ProjectSettings
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings
-          label: UserSettings
-          level: 0
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -771,27 +1510,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Resources.meta
-        label: Resources.meta
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Resources.meta
-          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
-            Folder\\Projet\\LittlePrincess\\Assets\\Resources.meta"
-          projectPath: Assets\Resources.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Resources
-        label: Resources
+      - path: Assets\Prefabs
+        label: Prefabs
         level: 1
         isFolder: 1
         isContainer: 0
@@ -808,9 +1528,46 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Resources\BillingMode.json
-        label: BillingMode.json
+      - path: Assets\Prefabs\Materials.meta
+        label: Materials.meta
         level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials.meta"
+          projectPath: Assets\Prefabs\Materials.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials
+        label: Materials
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Prefabs\Materials\Arbre.mat
+        label: Arbre.mat
+        level: 3
         isFolder: 0
         isContainer: 1
         isCollapsed: 0
@@ -820,15 +1577,414 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Resources\BillingMode.json
+          path: Assets\Prefabs\Materials\Arbre.mat
           fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
-            Folder\\Projet\\LittlePrincess\\Assets\\Resources\\BillingMode.json"
-          projectPath: Assets\Resources\BillingMode.json
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Arbre.mat"
+          projectPath: Assets\Prefabs\Materials\Arbre.mat
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
-      - path: Assets\Resources\BillingMode.json.meta
-        label: BillingMode.json.meta
+      - path: Assets\Prefabs\Materials\Arbre.mat.meta
+        label: Arbre.mat.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Arbre.mat.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Arbre.mat.meta"
+          projectPath: Assets\Prefabs\Materials\Arbre.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Arbre.png
+        label: Arbre.png
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Arbre.png
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Arbre.png"
+          projectPath: Assets\Prefabs\Materials\Arbre.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Arbre.png.meta
+        label: Arbre.png.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Arbre.png.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Arbre.png.meta"
+          projectPath: Assets\Prefabs\Materials\Arbre.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Batiment.mat
+        label: Batiment.mat
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Batiment.mat
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Batiment.mat"
+          projectPath: Assets\Prefabs\Materials\Batiment.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Batiment.mat.meta
+        label: Batiment.mat.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Batiment.mat.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Batiment.mat.meta"
+          projectPath: Assets\Prefabs\Materials\Batiment.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Bordure_pelouse.mat
+        label: Bordure_pelouse.mat
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Bordure_pelouse.mat
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Bordure_pelouse.mat"
+          projectPath: Assets\Prefabs\Materials\Bordure_pelouse.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Bordure_pelouse.mat.meta
+        label: Bordure_pelouse.mat.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Bordure_pelouse.mat.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Bordure_pelouse.mat.meta"
+          projectPath: Assets\Prefabs\Materials\Bordure_pelouse.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Bordure_pelouse_interieure.mat
+        label: Bordure_pelouse_interieure.mat
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Bordure_pelouse_interieure.mat
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Bordure_pelouse_interieure.mat"
+          projectPath: Assets\Prefabs\Materials\Bordure_pelouse_interieure.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Bordure_pelouse_interieure.mat.meta
+        label: Bordure_pelouse_interieure.mat.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Bordure_pelouse_interieure.mat.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Bordure_pelouse_interieure.mat.meta"
+          projectPath: Assets\Prefabs\Materials\Bordure_pelouse_interieure.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\dessous_entree.mat
+        label: dessous_entree.mat
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\dessous_entree.mat
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\dessous_entree.mat"
+          projectPath: Assets\Prefabs\Materials\dessous_entree.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\dessous_entree.mat.meta
+        label: dessous_entree.mat.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\dessous_entree.mat.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\dessous_entree.mat.meta"
+          projectPath: Assets\Prefabs\Materials\dessous_entree.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\dessous_entree.png
+        label: dessous_entree.png
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\dessous_entree.png
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\dessous_entree.png"
+          projectPath: Assets\Prefabs\Materials\dessous_entree.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\dessous_entree.png.meta
+        label: dessous_entree.png.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\dessous_entree.png.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\dessous_entree.png.meta"
+          projectPath: Assets\Prefabs\Materials\dessous_entree.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\devant_entree.mat
+        label: devant_entree.mat
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\devant_entree.mat
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\devant_entree.mat"
+          projectPath: Assets\Prefabs\Materials\devant_entree.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\devant_entree.mat.meta
+        label: devant_entree.mat.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\devant_entree.mat.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\devant_entree.mat.meta"
+          projectPath: Assets\Prefabs\Materials\devant_entree.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\devant_entree.png
+        label: devant_entree.png
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\devant_entree.png
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\devant_entree.png"
+          projectPath: Assets\Prefabs\Materials\devant_entree.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\devant_entree.png.meta
+        label: devant_entree.png.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\devant_entree.png.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\devant_entree.png.meta"
+          projectPath: Assets\Prefabs\Materials\devant_entree.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Material.011.mat
+        label: Material.011.mat
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Material.011.mat
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Material.011.mat"
+          projectPath: Assets\Prefabs\Materials\Material.011.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Material.011.mat.meta
+        label: Material.011.mat.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Material.011.mat.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Material.011.mat.meta"
+          projectPath: Assets\Prefabs\Materials\Material.011.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Material.014.mat
+        label: Material.014.mat
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Material.014.mat
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Material.014.mat"
+          projectPath: Assets\Prefabs\Materials\Material.014.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Material.014.mat.meta
+        label: Material.014.mat.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Material.014.mat.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Material.014.mat.meta"
+          projectPath: Assets\Prefabs\Materials\Material.014.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Materials.meta
+        label: Materials.meta
         level: 3
         isFolder: 0
         isContainer: 0
@@ -839,10 +1995,1054 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Resources\BillingMode.json.meta
+          path: Assets\Prefabs\Materials\Materials.meta
           fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
-            Folder\\Projet\\LittlePrincess\\Assets\\Resources\\BillingMode.json.meta"
-          projectPath: Assets\Resources\BillingMode.json.meta
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials.meta"
+          projectPath: Assets\Prefabs\Materials\Materials.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Materials
+        label: Materials
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Prefabs\Materials\Materials\Arbre.mat
+        label: Arbre.mat
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Materials\Arbre.mat
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Arbre.mat"
+          projectPath: Assets\Prefabs\Materials\Materials\Arbre.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Materials\Arbre.mat.meta
+        label: Arbre.mat.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Materials\Arbre.mat.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Arbre.mat.meta"
+          projectPath: Assets\Prefabs\Materials\Materials\Arbre.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Materials\Batiment.mat
+        label: Batiment.mat
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Materials\Batiment.mat
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Batiment.mat"
+          projectPath: Assets\Prefabs\Materials\Materials\Batiment.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Materials\Batiment.mat.meta
+        label: Batiment.mat.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Materials\Batiment.mat.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Batiment.mat.meta"
+          projectPath: Assets\Prefabs\Materials\Materials\Batiment.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Materials\Bordure_pelouse.mat
+        label: Bordure_pelouse.mat
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Materials\Bordure_pelouse.mat
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Bordure_pelouse.mat"
+          projectPath: Assets\Prefabs\Materials\Materials\Bordure_pelouse.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Materials\Bordure_pelouse.mat.meta
+        label: Bordure_pelouse.mat.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Materials\Bordure_pelouse.mat.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Bordure_pelouse.mat.meta"
+          projectPath: Assets\Prefabs\Materials\Materials\Bordure_pelouse.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Materials\Bordure_pelouse_interieure.mat
+        label: Bordure_pelouse_interieure.mat
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Materials\Bordure_pelouse_interieure.mat
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Bordure_pelouse_interieure.mat"
+          projectPath: Assets\Prefabs\Materials\Materials\Bordure_pelouse_interieure.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Materials\Bordure_pelouse_interieure.mat.meta
+        label: Bordure_pelouse_interieure.mat.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Materials\Bordure_pelouse_interieure.mat.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Bordure_pelouse_interieure.mat.meta"
+          projectPath: Assets\Prefabs\Materials\Materials\Bordure_pelouse_interieure.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Materials\dessous_entree.mat
+        label: dessous_entree.mat
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Materials\dessous_entree.mat
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\dessous_entree.mat"
+          projectPath: Assets\Prefabs\Materials\Materials\dessous_entree.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Materials\dessous_entree.mat.meta
+        label: dessous_entree.mat.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Materials\dessous_entree.mat.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\dessous_entree.mat.meta"
+          projectPath: Assets\Prefabs\Materials\Materials\dessous_entree.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Materials\devant_entree.mat
+        label: devant_entree.mat
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Materials\devant_entree.mat
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\devant_entree.mat"
+          projectPath: Assets\Prefabs\Materials\Materials\devant_entree.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Materials\devant_entree.mat.meta
+        label: devant_entree.mat.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Materials\devant_entree.mat.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\devant_entree.mat.meta"
+          projectPath: Assets\Prefabs\Materials\Materials\devant_entree.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Materials\Material.011.mat
+        label: Material.011.mat
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Materials\Material.011.mat
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Material.011.mat"
+          projectPath: Assets\Prefabs\Materials\Materials\Material.011.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Materials\Material.011.mat.meta
+        label: Material.011.mat.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Materials\Material.011.mat.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Material.011.mat.meta"
+          projectPath: Assets\Prefabs\Materials\Materials\Material.011.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Materials\Material.014.mat
+        label: Material.014.mat
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Materials\Material.014.mat
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Material.014.mat"
+          projectPath: Assets\Prefabs\Materials\Materials\Material.014.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Materials\Material.014.mat.meta
+        label: Material.014.mat.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Materials\Material.014.mat.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Material.014.mat.meta"
+          projectPath: Assets\Prefabs\Materials\Materials\Material.014.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Materials\Orange.mat
+        label: Orange.mat
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Materials\Orange.mat
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Orange.mat"
+          projectPath: Assets\Prefabs\Materials\Materials\Orange.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Materials\Orange.mat.meta
+        label: Orange.mat.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Materials\Orange.mat.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Orange.mat.meta"
+          projectPath: Assets\Prefabs\Materials\Materials\Orange.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Materials\Pelouse.mat
+        label: Pelouse.mat
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Materials\Pelouse.mat
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Pelouse.mat"
+          projectPath: Assets\Prefabs\Materials\Materials\Pelouse.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Materials\Pelouse.mat.meta
+        label: Pelouse.mat.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Materials\Pelouse.mat.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Pelouse.mat.meta"
+          projectPath: Assets\Prefabs\Materials\Materials\Pelouse.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Materials\Pilier.mat
+        label: Pilier.mat
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Materials\Pilier.mat
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Pilier.mat"
+          projectPath: Assets\Prefabs\Materials\Materials\Pilier.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Materials\Pilier.mat.meta
+        label: Pilier.mat.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Materials\Pilier.mat.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Pilier.mat.meta"
+          projectPath: Assets\Prefabs\Materials\Materials\Pilier.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Materials\Red.mat
+        label: Red.mat
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Materials\Red.mat
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Red.mat"
+          projectPath: Assets\Prefabs\Materials\Materials\Red.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Materials\Red.mat.meta
+        label: Red.mat.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Materials\Red.mat.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Red.mat.meta"
+          projectPath: Assets\Prefabs\Materials\Materials\Red.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Materials\Sol.mat
+        label: Sol.mat
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Materials\Sol.mat
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Sol.mat"
+          projectPath: Assets\Prefabs\Materials\Materials\Sol.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Materials\Sol.mat.meta
+        label: Sol.mat.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Materials\Sol.mat.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Sol.mat.meta"
+          projectPath: Assets\Prefabs\Materials\Materials\Sol.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Materials\Toit_entree.mat
+        label: Toit_entree.mat
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Materials\Toit_entree.mat
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Toit_entree.mat"
+          projectPath: Assets\Prefabs\Materials\Materials\Toit_entree.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Materials\Toit_entree.mat.meta
+        label: Toit_entree.mat.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Materials\Toit_entree.mat.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Toit_entree.mat.meta"
+          projectPath: Assets\Prefabs\Materials\Materials\Toit_entree.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Materials\Tour.mat
+        label: Tour.mat
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Materials\Tour.mat
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Tour.mat"
+          projectPath: Assets\Prefabs\Materials\Materials\Tour.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Materials\Tour.mat.meta
+        label: Tour.mat.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Materials\Tour.mat.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Tour.mat.meta"
+          projectPath: Assets\Prefabs\Materials\Materials\Tour.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Orange.mat
+        label: Orange.mat
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Orange.mat
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Orange.mat"
+          projectPath: Assets\Prefabs\Materials\Orange.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Orange.mat.meta
+        label: Orange.mat.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Orange.mat.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Orange.mat.meta"
+          projectPath: Assets\Prefabs\Materials\Orange.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Orange.png
+        label: Orange.png
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Orange.png
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Orange.png"
+          projectPath: Assets\Prefabs\Materials\Orange.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Orange.png.meta
+        label: Orange.png.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Orange.png.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Orange.png.meta"
+          projectPath: Assets\Prefabs\Materials\Orange.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Pelouse.mat
+        label: Pelouse.mat
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Pelouse.mat
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Pelouse.mat"
+          projectPath: Assets\Prefabs\Materials\Pelouse.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Pelouse.mat.meta
+        label: Pelouse.mat.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Pelouse.mat.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Pelouse.mat.meta"
+          projectPath: Assets\Prefabs\Materials\Pelouse.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Pilier.mat
+        label: Pilier.mat
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Pilier.mat
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Pilier.mat"
+          projectPath: Assets\Prefabs\Materials\Pilier.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Pilier.mat.meta
+        label: Pilier.mat.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Pilier.mat.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Pilier.mat.meta"
+          projectPath: Assets\Prefabs\Materials\Pilier.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Pilier.png
+        label: Pilier.png
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Pilier.png
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Pilier.png"
+          projectPath: Assets\Prefabs\Materials\Pilier.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Pilier.png.meta
+        label: Pilier.png.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Pilier.png.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Pilier.png.meta"
+          projectPath: Assets\Prefabs\Materials\Pilier.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Red.mat
+        label: Red.mat
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Red.mat
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Red.mat"
+          projectPath: Assets\Prefabs\Materials\Red.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Red.mat.meta
+        label: Red.mat.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Red.mat.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Red.mat.meta"
+          projectPath: Assets\Prefabs\Materials\Red.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Red.png
+        label: Red.png
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Red.png
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Red.png"
+          projectPath: Assets\Prefabs\Materials\Red.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Red.png.meta
+        label: Red.png.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Red.png.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Red.png.meta"
+          projectPath: Assets\Prefabs\Materials\Red.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Sol.mat
+        label: Sol.mat
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Sol.mat
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Sol.mat"
+          projectPath: Assets\Prefabs\Materials\Sol.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Sol.mat.meta
+        label: Sol.mat.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Sol.mat.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Sol.mat.meta"
+          projectPath: Assets\Prefabs\Materials\Sol.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Test.fbx
+        label: Test.fbx
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Test.fbx
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Test.fbx"
+          projectPath: Assets\Prefabs\Materials\Test.fbx
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Test.fbx.meta
+        label: Test.fbx.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Test.fbx.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Test.fbx.meta"
+          projectPath: Assets\Prefabs\Materials\Test.fbx.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Toit_entree.mat
+        label: Toit_entree.mat
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Toit_entree.mat
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Toit_entree.mat"
+          projectPath: Assets\Prefabs\Materials\Toit_entree.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Toit_entree.mat.meta
+        label: Toit_entree.mat.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Toit_entree.mat.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Toit_entree.mat.meta"
+          projectPath: Assets\Prefabs\Materials\Toit_entree.mat.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Toit_entree.png
+        label: Toit_entree.png
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Toit_entree.png
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Toit_entree.png"
+          projectPath: Assets\Prefabs\Materials\Toit_entree.png
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Toit_entree.png.meta
+        label: Toit_entree.png.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Toit_entree.png.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Toit_entree.png.meta"
+          projectPath: Assets\Prefabs\Materials\Toit_entree.png.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Tour.mat
+        label: Tour.mat
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Tour.mat
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Tour.mat"
+          projectPath: Assets\Prefabs\Materials\Tour.mat
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Prefabs\Materials\Tour.mat.meta
+        label: Tour.mat.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Materials\Tour.mat.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Tour.mat.meta"
+          projectPath: Assets\Prefabs\Materials\Tour.mat.meta
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
@@ -864,44 +3064,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Scenes\LittlePrincess.unity
-        label: LittlePrincess.unity
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\LittlePrincess.unity
-          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
-            Folder\\Projet\\LittlePrincess\\Assets\\Scenes\\LittlePrincess.unity"
-          projectPath: Assets\Scenes\LittlePrincess.unity
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
-      - path: Assets\Scenes\LittlePrincess.unity.meta
-        label: LittlePrincess.unity.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\LittlePrincess.unity.meta
-          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
-            Folder\\Projet\\LittlePrincess\\Assets\\Scenes\\LittlePrincess.unity.meta"
-          projectPath: Assets\Scenes\LittlePrincess.unity.meta
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 5
       - path: Assets\Scenes\Planet 1.unity
         label: Planet 1.unity
         level: 2
@@ -919,8 +3081,8 @@ MonoBehaviour:
             Folder\\Projet\\LittlePrincess\\Assets\\Scenes\\Planet 1.unity"
           projectPath: Assets\Scenes\Planet 1.unity
           originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
+          indexStatus: 0
+          workTreeStatus: 5
       - path: Assets\Scenes\Planet 1.unity.meta
         label: Planet 1.unity.meta
         level: 3
@@ -938,119 +3100,8 @@ MonoBehaviour:
             Folder\\Projet\\LittlePrincess\\Assets\\Scenes\\Planet 1.unity.meta"
           projectPath: Assets\Scenes\Planet 1.unity.meta
           originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Packages
-        label: Packages
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
           indexStatus: 0
-          workTreeStatus: 0
-      - path: Packages\packages-lock.json
-        label: packages-lock.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Packages\packages-lock.json
-          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
-            Folder\\Projet\\LittlePrincess\\Packages\\packages-lock.json"
-          projectPath: Packages\packages-lock.json
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: ProjectSettings
-        label: ProjectSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: ProjectSettings\ProjectVersion.txt
-        label: ProjectVersion.txt
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\ProjectVersion.txt
-          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
-            Folder\\Projet\\LittlePrincess\\ProjectSettings\\ProjectVersion.txt"
-          projectPath: ProjectSettings\ProjectVersion.txt
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: UserSettings
-        label: UserSettings
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\EditorUserSettings.asset
-        label: EditorUserSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings\EditorUserSettings.asset
-          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
-            Folder\\Projet\\LittlePrincess\\UserSettings\\EditorUserSettings.asset"
-          projectPath: UserSettings\EditorUserSettings.asset
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
+          workTreeStatus: 5
       selectedNode:
         path: 
         label: 
@@ -1071,85 +3122,575 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
-    - path: Assets\Resources.meta
+    - path: Assets\Prefabs\Materials.meta
       fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
-        Folder\\Projet\\LittlePrincess\\Assets\\Resources.meta"
-      projectPath: Assets\Resources.meta
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials.meta"
+      projectPath: Assets\Prefabs\Materials.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: Assets\Resources\BillingMode.json
+    - path: Assets\Prefabs\Materials\Arbre.mat
       fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
-        Folder\\Projet\\LittlePrincess\\Assets\\Resources\\BillingMode.json"
-      projectPath: Assets\Resources\BillingMode.json
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Arbre.mat"
+      projectPath: Assets\Prefabs\Materials\Arbre.mat
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: Assets\Resources\BillingMode.json.meta
+    - path: Assets\Prefabs\Materials\Arbre.mat.meta
       fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
-        Folder\\Projet\\LittlePrincess\\Assets\\Resources\\BillingMode.json.meta"
-      projectPath: Assets\Resources\BillingMode.json.meta
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Arbre.mat.meta"
+      projectPath: Assets\Prefabs\Materials\Arbre.mat.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: Assets\Scenes\LittlePrincess.unity
+    - path: Assets\Prefabs\Materials\Arbre.png
       fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
-        Folder\\Projet\\LittlePrincess\\Assets\\Scenes\\LittlePrincess.unity"
-      projectPath: Assets\Scenes\LittlePrincess.unity
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Arbre.png"
+      projectPath: Assets\Prefabs\Materials\Arbre.png
       originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
-    - path: Assets\Scenes\LittlePrincess.unity.meta
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Arbre.png.meta
       fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
-        Folder\\Projet\\LittlePrincess\\Assets\\Scenes\\LittlePrincess.unity.meta"
-      projectPath: Assets\Scenes\LittlePrincess.unity.meta
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Arbre.png.meta"
+      projectPath: Assets\Prefabs\Materials\Arbre.png.meta
       originalPath: 
-      indexStatus: 0
-      workTreeStatus: 5
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Batiment.mat
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Batiment.mat"
+      projectPath: Assets\Prefabs\Materials\Batiment.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Batiment.mat.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Batiment.mat.meta"
+      projectPath: Assets\Prefabs\Materials\Batiment.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Bordure_pelouse.mat
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Bordure_pelouse.mat"
+      projectPath: Assets\Prefabs\Materials\Bordure_pelouse.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Bordure_pelouse.mat.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Bordure_pelouse.mat.meta"
+      projectPath: Assets\Prefabs\Materials\Bordure_pelouse.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Bordure_pelouse_interieure.mat
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Bordure_pelouse_interieure.mat"
+      projectPath: Assets\Prefabs\Materials\Bordure_pelouse_interieure.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Bordure_pelouse_interieure.mat.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Bordure_pelouse_interieure.mat.meta"
+      projectPath: Assets\Prefabs\Materials\Bordure_pelouse_interieure.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\dessous_entree.mat
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\dessous_entree.mat"
+      projectPath: Assets\Prefabs\Materials\dessous_entree.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\dessous_entree.mat.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\dessous_entree.mat.meta"
+      projectPath: Assets\Prefabs\Materials\dessous_entree.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\dessous_entree.png
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\dessous_entree.png"
+      projectPath: Assets\Prefabs\Materials\dessous_entree.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\dessous_entree.png.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\dessous_entree.png.meta"
+      projectPath: Assets\Prefabs\Materials\dessous_entree.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\devant_entree.mat
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\devant_entree.mat"
+      projectPath: Assets\Prefabs\Materials\devant_entree.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\devant_entree.mat.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\devant_entree.mat.meta"
+      projectPath: Assets\Prefabs\Materials\devant_entree.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\devant_entree.png
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\devant_entree.png"
+      projectPath: Assets\Prefabs\Materials\devant_entree.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\devant_entree.png.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\devant_entree.png.meta"
+      projectPath: Assets\Prefabs\Materials\devant_entree.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Material.011.mat
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Material.011.mat"
+      projectPath: Assets\Prefabs\Materials\Material.011.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Material.011.mat.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Material.011.mat.meta"
+      projectPath: Assets\Prefabs\Materials\Material.011.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Material.014.mat
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Material.014.mat"
+      projectPath: Assets\Prefabs\Materials\Material.014.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Material.014.mat.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Material.014.mat.meta"
+      projectPath: Assets\Prefabs\Materials\Material.014.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Materials.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials.meta"
+      projectPath: Assets\Prefabs\Materials\Materials.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Materials\Arbre.mat
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Arbre.mat"
+      projectPath: Assets\Prefabs\Materials\Materials\Arbre.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Materials\Arbre.mat.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Arbre.mat.meta"
+      projectPath: Assets\Prefabs\Materials\Materials\Arbre.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Materials\Batiment.mat
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Batiment.mat"
+      projectPath: Assets\Prefabs\Materials\Materials\Batiment.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Materials\Batiment.mat.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Batiment.mat.meta"
+      projectPath: Assets\Prefabs\Materials\Materials\Batiment.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Materials\Bordure_pelouse.mat
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Bordure_pelouse.mat"
+      projectPath: Assets\Prefabs\Materials\Materials\Bordure_pelouse.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Materials\Bordure_pelouse.mat.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Bordure_pelouse.mat.meta"
+      projectPath: Assets\Prefabs\Materials\Materials\Bordure_pelouse.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Materials\Bordure_pelouse_interieure.mat
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Bordure_pelouse_interieure.mat"
+      projectPath: Assets\Prefabs\Materials\Materials\Bordure_pelouse_interieure.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Materials\Bordure_pelouse_interieure.mat.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Bordure_pelouse_interieure.mat.meta"
+      projectPath: Assets\Prefabs\Materials\Materials\Bordure_pelouse_interieure.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Materials\dessous_entree.mat
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\dessous_entree.mat"
+      projectPath: Assets\Prefabs\Materials\Materials\dessous_entree.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Materials\dessous_entree.mat.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\dessous_entree.mat.meta"
+      projectPath: Assets\Prefabs\Materials\Materials\dessous_entree.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Materials\devant_entree.mat
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\devant_entree.mat"
+      projectPath: Assets\Prefabs\Materials\Materials\devant_entree.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Materials\devant_entree.mat.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\devant_entree.mat.meta"
+      projectPath: Assets\Prefabs\Materials\Materials\devant_entree.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Materials\Material.011.mat
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Material.011.mat"
+      projectPath: Assets\Prefabs\Materials\Materials\Material.011.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Materials\Material.011.mat.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Material.011.mat.meta"
+      projectPath: Assets\Prefabs\Materials\Materials\Material.011.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Materials\Material.014.mat
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Material.014.mat"
+      projectPath: Assets\Prefabs\Materials\Materials\Material.014.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Materials\Material.014.mat.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Material.014.mat.meta"
+      projectPath: Assets\Prefabs\Materials\Materials\Material.014.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Materials\Orange.mat
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Orange.mat"
+      projectPath: Assets\Prefabs\Materials\Materials\Orange.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Materials\Orange.mat.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Orange.mat.meta"
+      projectPath: Assets\Prefabs\Materials\Materials\Orange.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Materials\Pelouse.mat
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Pelouse.mat"
+      projectPath: Assets\Prefabs\Materials\Materials\Pelouse.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Materials\Pelouse.mat.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Pelouse.mat.meta"
+      projectPath: Assets\Prefabs\Materials\Materials\Pelouse.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Materials\Pilier.mat
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Pilier.mat"
+      projectPath: Assets\Prefabs\Materials\Materials\Pilier.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Materials\Pilier.mat.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Pilier.mat.meta"
+      projectPath: Assets\Prefabs\Materials\Materials\Pilier.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Materials\Red.mat
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Red.mat"
+      projectPath: Assets\Prefabs\Materials\Materials\Red.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Materials\Red.mat.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Red.mat.meta"
+      projectPath: Assets\Prefabs\Materials\Materials\Red.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Materials\Sol.mat
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Sol.mat"
+      projectPath: Assets\Prefabs\Materials\Materials\Sol.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Materials\Sol.mat.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Sol.mat.meta"
+      projectPath: Assets\Prefabs\Materials\Materials\Sol.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Materials\Toit_entree.mat
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Toit_entree.mat"
+      projectPath: Assets\Prefabs\Materials\Materials\Toit_entree.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Materials\Toit_entree.mat.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Toit_entree.mat.meta"
+      projectPath: Assets\Prefabs\Materials\Materials\Toit_entree.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Materials\Tour.mat
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Tour.mat"
+      projectPath: Assets\Prefabs\Materials\Materials\Tour.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Materials\Tour.mat.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Materials\\Tour.mat.meta"
+      projectPath: Assets\Prefabs\Materials\Materials\Tour.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Orange.mat
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Orange.mat"
+      projectPath: Assets\Prefabs\Materials\Orange.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Orange.mat.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Orange.mat.meta"
+      projectPath: Assets\Prefabs\Materials\Orange.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Orange.png
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Orange.png"
+      projectPath: Assets\Prefabs\Materials\Orange.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Orange.png.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Orange.png.meta"
+      projectPath: Assets\Prefabs\Materials\Orange.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Pelouse.mat
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Pelouse.mat"
+      projectPath: Assets\Prefabs\Materials\Pelouse.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Pelouse.mat.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Pelouse.mat.meta"
+      projectPath: Assets\Prefabs\Materials\Pelouse.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Pilier.mat
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Pilier.mat"
+      projectPath: Assets\Prefabs\Materials\Pilier.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Pilier.mat.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Pilier.mat.meta"
+      projectPath: Assets\Prefabs\Materials\Pilier.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Pilier.png
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Pilier.png"
+      projectPath: Assets\Prefabs\Materials\Pilier.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Pilier.png.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Pilier.png.meta"
+      projectPath: Assets\Prefabs\Materials\Pilier.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Red.mat
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Red.mat"
+      projectPath: Assets\Prefabs\Materials\Red.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Red.mat.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Red.mat.meta"
+      projectPath: Assets\Prefabs\Materials\Red.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Red.png
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Red.png"
+      projectPath: Assets\Prefabs\Materials\Red.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Red.png.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Red.png.meta"
+      projectPath: Assets\Prefabs\Materials\Red.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Sol.mat
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Sol.mat"
+      projectPath: Assets\Prefabs\Materials\Sol.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Sol.mat.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Sol.mat.meta"
+      projectPath: Assets\Prefabs\Materials\Sol.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Test.fbx
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Test.fbx"
+      projectPath: Assets\Prefabs\Materials\Test.fbx
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Test.fbx.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Test.fbx.meta"
+      projectPath: Assets\Prefabs\Materials\Test.fbx.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Toit_entree.mat
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Toit_entree.mat"
+      projectPath: Assets\Prefabs\Materials\Toit_entree.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Toit_entree.mat.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Toit_entree.mat.meta"
+      projectPath: Assets\Prefabs\Materials\Toit_entree.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Toit_entree.png
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Toit_entree.png"
+      projectPath: Assets\Prefabs\Materials\Toit_entree.png
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Toit_entree.png.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Toit_entree.png.meta"
+      projectPath: Assets\Prefabs\Materials\Toit_entree.png.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Tour.mat
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Tour.mat"
+      projectPath: Assets\Prefabs\Materials\Tour.mat
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Prefabs\Materials\Tour.mat.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Prefabs\\Materials\\Tour.mat.meta"
+      projectPath: Assets\Prefabs\Materials\Tour.mat.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
     - path: Assets\Scenes\Planet 1.unity
       fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
         Folder\\Projet\\LittlePrincess\\Assets\\Scenes\\Planet 1.unity"
       projectPath: Assets\Scenes\Planet 1.unity
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
+      indexStatus: 0
+      workTreeStatus: 5
     - path: Assets\Scenes\Planet 1.unity.meta
       fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
         Folder\\Projet\\LittlePrincess\\Assets\\Scenes\\Planet 1.unity.meta"
       projectPath: Assets\Scenes\Planet 1.unity.meta
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Packages\packages-lock.json
-      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
-        Folder\\Projet\\LittlePrincess\\Packages\\packages-lock.json"
-      projectPath: Packages\packages-lock.json
-      originalPath: 
       indexStatus: 0
-      workTreeStatus: 3
-    - path: ProjectSettings\ProjectVersion.txt
-      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
-        Folder\\Projet\\LittlePrincess\\ProjectSettings\\ProjectVersion.txt"
-      projectPath: ProjectSettings\ProjectVersion.txt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings\EditorUserSettings.asset
-      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
-        Folder\\Projet\\LittlePrincess\\UserSettings\\EditorUserSettings.asset"
-      projectPath: UserSettings\EditorUserSettings.asset
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    changedFilesText: 10 changed files
+      workTreeStatus: 5
+    changedFilesText: 80 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-03-22T18:19:24.963+01:00
+      updatedTimeString: 2023-03-29T17:06:33.887+02:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-03-22T18:40:49.570+01:00
+      updatedTimeString: 2023-03-29T17:47:52.655+02:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2023-03-29T17:33:59.256+02:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -1711,10 +4252,10 @@ MonoBehaviour:
     updatedTimeString: 2023-03-22T14:20:58.103+01:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-03-22T14:20:58.948+01:00
+    updatedTimeString: 2023-03-29T17:33:41.632+02:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-03-22T14:43:10.081+01:00
+    updatedTimeString: 2023-03-29T17:33:41.613+02:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -1732,7 +4273,7 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 0
+  repositoryProgressValue: 0.99992967
   repositoryProgressMessage: 
   appManagerProgressValue: 1
   appManagerProgressMessage: 
@@ -1778,13 +4319,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/Kaio/source
+    - Assets/Prefabs/Materials
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/Kaio/source
+  - Assets/Prefabs/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
     Folder\\Projet\\LittlePrincess"
@@ -1792,9 +4333,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 246e0000
-    m_LastClickedID: 28196
-    m_ExpandedIDs: 000000004c6100004e61000050610000526100005461000056610000586100005a6100005c6100005e61000060610000626100006461000066610000686100006a6100006c6100006e6100007061000084610000206e000000ca9a3bffffff7f
+    m_SelectedIDs: 920f0200
+    m_LastClickedID: 135058
+    m_ExpandedIDs: 000000004e61000050610000526100005461000056610000586100005a6100005c6100005e61000060610000626100006461000066610000686100006a6100006c6100006e610000706100007261000082610000ba61000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1822,7 +4363,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004c6100004e61000050610000526100005461000056610000586100005a6100005c6100005e61000060610000626100006461000066610000686100006a6100006c6100006e61000070610000
+    m_ExpandedIDs: 000000004e61000050610000526100005461000056610000586100005a6100005c6100005e61000060610000626100006461000066610000686100006a6100006c6100006e6100007061000072610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1850,7 +4391,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000
+    m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1941,7 +4482,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73.6
-    width: 289.4
+    width: 295
     height: 411.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1950,9 +4491,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 46bfffff
-      m_LastClickedID: -16570
-      m_ExpandedIDs: 4abfffff18d1ffff2ed1ffff38d1ffff3ed1ffff48d1ffff52d1ffff58d1ffff62d1ffff6cd1ffff72d1ffff7cd1ffff86d1ffff8cd1ffff96d1ffffa0d1ffffaad1ffffb0d1ffffbed1ffffc4d1ffffc8d1ffffd0d1ffffd8d1ffffe0d1ffffe8d1fffff0d1fffff4d1fffff8d1ffff00d2ffff04d2ffff08d2ffff10d2ffff14d2ffff18d2ffff20d2ffff24d2ffff28d2ffff30d2ffff34d2ffff38d2ffff3cd2ffff42d2ffff48d2ffff4cd2ffff62d2ffff68d2ffff72d2ffff78d2ffff7ed2ffff84d2ffff8ad2ffff90d2ffff9ad2ffffa0d2ffffaad2ffffb4d2ffffbad2ffffc4d2ffffcad2ffffd0d2ffffd6d2ffffdcd2ffffe2d2ffffecd2fffff2d2fffffcd2ffff20d3ffff32d3ffff36d3ffff3ed3ffff46d3ffff4ed3ffff56d3ffff5ed3ffff62d3ffff66d3ffff6ed3ffff72d3ffff76d3ffff7ed3ffff82d3ffff86d3ffff8ed3ffff92d3ffff96d3ffff9ed3ffffa2d3ffffa6d3ffffaad3ffffb0d3ffffb6d3ffffbad3ffffc0d3ffffc4d3ffffc8d3ffffd6d3ffffdcd3ffffe2d3fffff0d3fffff6d3fffffcd3ffff02d4ffff06d4ffffb4d8ffff3ceeffff4af2ffff36fbffff
+      m_SelectedIDs: a837feff
+      m_LastClickedID: -116824
+      m_ExpandedIDs: f237feffa87dfeff98fefeff5820ffffa620ffff5c25ffff4a2effff982effff4e33ffff7aacffffbcf9ffffacfaffff36fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1996,9 +4537,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 290.4
+    x: 296
     y: 73.6
-    width: 879.6
+    width: 874
     height: 411.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -2256,9 +4797,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -260.65317, y: -7.476564, z: -182.5329}
+    m_Target: {x: -238.07982, y: 0.7654084, z: -214.62984}
     speed: 2
-    m_Value: {x: -260.65317, y: -7.476564, z: -182.5329}
+    m_Value: {x: -238.07982, y: 0.7654084, z: -214.62984}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -2284,7 +4825,7 @@ MonoBehaviour:
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 1, y: 1}
     yGrid:
       m_Fade:
         m_Target: 1
@@ -2300,25 +4841,25 @@ MonoBehaviour:
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 1, y: 1}
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.102241956, y: -0.7801402, z: 0.13231075, w: 0.60284674}
+    m_Target: {x: -0.061082624, y: -0.92760855, z: 0.17455171, w: -0.32458827}
     speed: 2
-    m_Value: {x: 0.10224184, y: -0.78013927, z: 0.13231058, w: 0.602846}
+    m_Value: {x: -0.061343934, y: -0.9271139, z: 0.17445862, w: -0.32597694}
   m_Size:
-    m_Target: 31.089098
+    m_Target: 0.6329423
     speed: 2
-    m_Value: 31.089098
+    m_Value: 0.6056864
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
-    m_Speed: 1
-    m_SpeedNormalized: 0.5
+    m_Speed: 1.06047
+    m_SpeedNormalized: 0.53
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -2356,9 +4897,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 290.4
+    x: 296
     y: 73.6
-    width: 879.6
+    width: 874
     height: 411.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -2370,7 +4911,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 879.6, y: 390.8}
+  m_TargetSize: {x: 874, y: 390.8}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -2385,8 +4926,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -351.84
-    m_HBaseRangeMax: 351.84
+    m_HBaseRangeMin: -349.6
+    m_HBaseRangeMax: 349.6
     m_VBaseRangeMin: -156.31999
     m_VBaseRangeMax: 156.31999
     m_HAllowExceedBaseRangeMin: 1
@@ -2406,23 +4947,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 879.6
+      width: 874
       height: 390.8
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 439.8, y: 195.4}
+    m_Translation: {x: 437, y: 195.4}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -439.8
+      x: -437
       y: -195.4
-      width: 879.6
+      width: 874
       height: 390.8
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1099.5, y: 514.75}
+  m_LastWindowPixelSize: {x: 1092.5, y: 514.75}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
