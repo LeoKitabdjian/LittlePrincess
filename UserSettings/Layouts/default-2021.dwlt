@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 7.3333335
-    y: 50
-    width: 1425.3334
-    height: 862.6667
+    x: 0
+    y: 43.2
+    width: 1536
+    height: 780.8
   m_ShowMode: 4
-  m_Title: Git for Unity
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 0
+  m_Maximized: 1
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -43,12 +43,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1425.3334
-    height: 812.6667
+    width: 1536
+    height: 730.8
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 21
+  controlID: 16
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -59,23 +59,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Window
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1088.6666
+    x: 1172
     y: 0
-    width: 336.66675
-    height: 812.6667
-  m_MinSize: {x: 101, y: 121}
+    width: 364
+    height: 730.8
+  m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 14}
+  - {fileID: 15}
+  - {fileID: 13}
   - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 2
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -93,13 +94,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 270
-    height: 482
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 15}
+    width: 290.4
+    height: 432.8
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 15}
+  - {fileID: 16}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &5
@@ -118,15 +119,15 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 482
-    width: 1088.6666
-    height: 330.6667
+    y: 432.8
+    width: 1172
+    height: 298
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 13}
+  m_ActualView: {fileID: 14}
   m_Panes:
-  - {fileID: 13}
-  - {fileID: 18}
+  - {fileID: 14}
+  - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &6
@@ -149,8 +150,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1425.3334
-    height: 862.6667
+    width: 1536
+    height: 780.8
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -174,7 +175,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1425.3334
+    width: 1536
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -195,8 +196,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 842.6667
-    width: 1425.3334
+    y: 760.8
+    width: 1536
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -219,12 +220,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1088.6666
-    height: 812.6667
+    width: 1172
+    height: 730.8
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 99
+  controlID: 17
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,12 +245,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1088.6666
-    height: 482
+    width: 1172
+    height: 432.8
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 100
+  controlID: 18
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -260,24 +261,52 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 270
+    x: 290.4
     y: 0
-    width: 818.6666
-    height: 482
+    width: 881.6
+    height: 432.8
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 16}
   - {fileID: 17}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12402, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 300, y: 150}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Services
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1172
+    y: 73.6
+    width: 363
+    height: 709.8
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -297,10 +326,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1096
-    y: 80
-    width: 335.66675
-    height: 791.6667
+    x: 1172
+    y: 73.6
+    width: 363
+    height: 709.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -310,9 +339,9 @@ MonoBehaviour:
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 0
+  currentStatusEntriesHasUpdate: 1
+  repositoryProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 1
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -451,37 +480,22 @@ MonoBehaviour:
       tracking: 
     remoteBranches: []
   changesView:
-    currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
+    currentBranchHasUpdate: 1
+    currentStatusEntriesHasUpdate: 1
+    currentLocksHasUpdate: 1
     commitBody: 
     commitMessage: 
-    currentBranch: master
+    currentBranch: main
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
         keys:
         - 00000000000000001000000000000000
+        - 082cd2a006ab85f489e45f48f72311e2
+        - 137e2ae3265f30749b2ee65b0640d6fc
         - 6ea315d0fd7389c41b19996891e99ae3
-        - 9fc0d4010bbf28b4594072e72b8655ab
-        - 00000000000000006000000000000000
-        - 00000000000000007100000000000000
-        - 00000000000000008000000000000000
-        - 0000000000000000b000000000000000
-        - 0000000000000000c000000000000000
-        - 00000000000000006100000000000000
-        - 00000000000000002000000000000000
-        - 0000000000000000f100000000000000
-        - 00000000000000004100000000000000
-        - 00000000000000005100000000000000
-        - 0000000000000000b100000000000000
-        - 00000000000000004000000000000000
-        - 00000000000000009000000000000000
-        - 00000000000000003000000000000000
-        - 00000000000000007000000000000000
-        - 0000000000000000a100000000000000
-        - 0000000000000000d100000000000000
-        - 0000000000000000c100000000000000
+        - a4d5b3c152b5ea44da07a13b05007ec8
+        - 0000000000000000e100000000000000
         values:
         - path: Assets
           label: Assets
@@ -501,6 +515,43 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
+        - path: Assets\Resources
+          label: Resources
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Resources\BillingMode.json
+          label: BillingMode.json
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Resources\BillingMode.json
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Resources\\BillingMode.json"
+            projectPath: Assets\Resources\BillingMode.json
+            originalPath: 
+            indexStatus: 1
+            workTreeStatus: 1
         - path: Assets\Scenes
           label: Scenes
           level: 1
@@ -519,8 +570,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets\Scenes\SampleScene.unity
-          label: SampleScene.unity
+        - path: Assets\Scenes\Planet 1.unity
+          label: Planet 1.unity
           level: 2
           isFolder: 0
           isContainer: 1
@@ -531,14 +582,15 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets\Scenes\SampleScene.unity
-            fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\Assets\\Scenes\\SampleScene.unity"
-            projectPath: Assets\Scenes\SampleScene.unity
+            path: Assets\Scenes\Planet 1.unity
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\Assets\\Scenes\\Planet 1.unity"
+            projectPath: Assets\Scenes\Planet 1.unity
             originalPath: 
             indexStatus: 1
             workTreeStatus: 1
-        - path: ProjectSettings\AudioManager.asset
-          label: AudioManager.asset
+        - path: ProjectSettings\ProjectVersion.txt
+          label: ProjectVersion.txt
           level: 1
           isFolder: 0
           isContainer: 0
@@ -549,332 +601,43 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: ProjectSettings\AudioManager.asset
-            fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\AudioManager.asset"
-            projectPath: ProjectSettings\AudioManager.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\ClusterInputManager.asset
-          label: ClusterInputManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\ClusterInputManager.asset
-            fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\ClusterInputManager.asset"
-            projectPath: ProjectSettings\ClusterInputManager.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\DynamicsManager.asset
-          label: DynamicsManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\DynamicsManager.asset
-            fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\DynamicsManager.asset"
-            projectPath: ProjectSettings\DynamicsManager.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\EditorBuildSettings.asset
-          label: EditorBuildSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\EditorBuildSettings.asset
-            fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\EditorBuildSettings.asset"
-            projectPath: ProjectSettings\EditorBuildSettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\EditorSettings.asset
-          label: EditorSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\EditorSettings.asset
-            fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\EditorSettings.asset"
-            projectPath: ProjectSettings\EditorSettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\GraphicsSettings.asset
-          label: GraphicsSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\GraphicsSettings.asset
-            fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\GraphicsSettings.asset"
-            projectPath: ProjectSettings\GraphicsSettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\InputManager.asset
-          label: InputManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\InputManager.asset
-            fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\InputManager.asset"
-            projectPath: ProjectSettings\InputManager.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\MemorySettings.asset
-          label: MemorySettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\MemorySettings.asset
-            fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\MemorySettings.asset"
-            projectPath: ProjectSettings\MemorySettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\NavMeshAreas.asset
-          label: NavMeshAreas.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\NavMeshAreas.asset
-            fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\NavMeshAreas.asset"
-            projectPath: ProjectSettings\NavMeshAreas.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\Physics2DSettings.asset
-          label: Physics2DSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\Physics2DSettings.asset
-            fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\Physics2DSettings.asset"
-            projectPath: ProjectSettings\Physics2DSettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\PresetManager.asset
-          label: PresetManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\PresetManager.asset
-            fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\PresetManager.asset"
-            projectPath: ProjectSettings\PresetManager.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\ProjectSettings.asset
-          label: ProjectSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\ProjectSettings.asset
-            fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\ProjectSettings.asset"
-            projectPath: ProjectSettings\ProjectSettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\QualitySettings.asset
-          label: QualitySettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\QualitySettings.asset
-            fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\QualitySettings.asset"
-            projectPath: ProjectSettings\QualitySettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\TagManager.asset
-          label: TagManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\TagManager.asset
-            fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\TagManager.asset"
-            projectPath: ProjectSettings\TagManager.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\TimeManager.asset
-          label: TimeManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\TimeManager.asset
-            fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\TimeManager.asset"
-            projectPath: ProjectSettings\TimeManager.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\UnityConnectSettings.asset
-          label: UnityConnectSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\UnityConnectSettings.asset
-            fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\UnityConnectSettings.asset"
-            projectPath: ProjectSettings\UnityConnectSettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\VersionControlSettings.asset
-          label: VersionControlSettings.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\VersionControlSettings.asset
-            fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\VersionControlSettings.asset"
-            projectPath: ProjectSettings\VersionControlSettings.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: ProjectSettings\VFXManager.asset
-          label: VFXManager.asset
-          level: 1
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: ProjectSettings\VFXManager.asset
-            fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\VFXManager.asset"
-            projectPath: ProjectSettings\VFXManager.asset
+            path: ProjectSettings\ProjectVersion.txt
+            fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+              Folder\\Projet\\LittlePrincess\\ProjectSettings\\ProjectVersion.txt"
+            projectPath: ProjectSettings\ProjectVersion.txt
             originalPath: 
             indexStatus: 1
             workTreeStatus: 1
       folders:
         keys:
         - Assets
+        - Assets\Resources
         - Assets\Scenes
         - Packages
         - ProjectSettings
-        - ProjectSettings\Packages
-        - ProjectSettings\Packages\com.unity.testtools.codecoverage
         - UserSettings
-        - UserSettings\Layouts
         values:
         - path: Assets
           label: Assets
           level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Resources
+          label: Resources
+          level: 1
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -944,63 +707,9 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: ProjectSettings\Packages
-          label: Packages
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: ProjectSettings\Packages\com.unity.testtools.codecoverage
-          label: com.unity.testtools.codecoverage
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
         - path: UserSettings
           label: UserSettings
           level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: UserSettings\Layouts
-          label: Layouts
-          level: 1
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -1062,8 +771,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Scenes.meta
-        label: Scenes.meta
+      - path: Assets\Resources.meta
+        label: Resources.meta
         level: 1
         isFolder: 0
         isContainer: 0
@@ -1074,9 +783,66 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Scenes.meta
-          fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\Assets\\Scenes.meta"
-          projectPath: Assets\Scenes.meta
+          path: Assets\Resources.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Resources.meta"
+          projectPath: Assets\Resources.meta
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Resources
+        label: Resources
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Resources\BillingMode.json
+        label: BillingMode.json
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Resources\BillingMode.json
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Resources\\BillingMode.json"
+          projectPath: Assets\Resources\BillingMode.json
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Resources\BillingMode.json.meta
+        label: BillingMode.json.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Resources\BillingMode.json.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Resources\\BillingMode.json.meta"
+          projectPath: Assets\Resources\BillingMode.json.meta
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
@@ -1098,8 +864,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets\Scenes\SampleScene.unity
-        label: SampleScene.unity
+      - path: Assets\Scenes\LittlePrincess.unity
+        label: LittlePrincess.unity
         level: 2
         isFolder: 0
         isContainer: 1
@@ -1110,14 +876,15 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Scenes\SampleScene.unity
-          fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\Assets\\Scenes\\SampleScene.unity"
-          projectPath: Assets\Scenes\SampleScene.unity
+          path: Assets\Scenes\LittlePrincess.unity
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Scenes\\LittlePrincess.unity"
+          projectPath: Assets\Scenes\LittlePrincess.unity
           originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scenes\SampleScene.unity.meta
-        label: SampleScene.unity.meta
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Assets\Scenes\LittlePrincess.unity.meta
+        label: LittlePrincess.unity.meta
         level: 3
         isFolder: 0
         isContainer: 0
@@ -1128,9 +895,48 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets\Scenes\SampleScene.unity.meta
-          fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\Assets\\Scenes\\SampleScene.unity.meta"
-          projectPath: Assets\Scenes\SampleScene.unity.meta
+          path: Assets\Scenes\LittlePrincess.unity.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Scenes\\LittlePrincess.unity.meta"
+          projectPath: Assets\Scenes\LittlePrincess.unity.meta
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: Assets\Scenes\Planet 1.unity
+        label: Planet 1.unity
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scenes\Planet 1.unity
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Scenes\\Planet 1.unity"
+          projectPath: Assets\Scenes\Planet 1.unity
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: Assets\Scenes\Planet 1.unity.meta
+        label: Planet 1.unity.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scenes\Planet 1.unity.meta
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Assets\\Scenes\\Planet 1.unity.meta"
+          projectPath: Assets\Scenes\Planet 1.unity.meta
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
@@ -1152,24 +958,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Packages\manifest.json
-        label: manifest.json
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Packages\manifest.json
-          fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\Packages\\manifest.json"
-          projectPath: Packages\manifest.json
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
       - path: Packages\packages-lock.json
         label: packages-lock.json
         level: 1
@@ -1183,11 +971,12 @@ MonoBehaviour:
         isLocked: 0
         gitStatusEntry:
           path: Packages\packages-lock.json
-          fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\Packages\\packages-lock.json"
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\Packages\\packages-lock.json"
           projectPath: Packages\packages-lock.json
           originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
+          indexStatus: 0
+          workTreeStatus: 3
       - path: ProjectSettings
         label: ProjectSettings
         level: 0
@@ -1206,8 +995,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: ProjectSettings\AudioManager.asset
-        label: AudioManager.asset
+      - path: ProjectSettings\ProjectVersion.txt
+        label: ProjectVersion.txt
         level: 1
         isFolder: 0
         isContainer: 0
@@ -1218,423 +1007,10 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: ProjectSettings\AudioManager.asset
-          fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\AudioManager.asset"
-          projectPath: ProjectSettings\AudioManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\boot.config
-        label: boot.config
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\boot.config
-          fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\boot.config"
-          projectPath: ProjectSettings\boot.config
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\ClusterInputManager.asset
-        label: ClusterInputManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\ClusterInputManager.asset
-          fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\ClusterInputManager.asset"
-          projectPath: ProjectSettings\ClusterInputManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\DynamicsManager.asset
-        label: DynamicsManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\DynamicsManager.asset
-          fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\DynamicsManager.asset"
-          projectPath: ProjectSettings\DynamicsManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\EditorBuildSettings.asset
-        label: EditorBuildSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\EditorBuildSettings.asset
-          fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\EditorBuildSettings.asset"
-          projectPath: ProjectSettings\EditorBuildSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\EditorSettings.asset
-        label: EditorSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\EditorSettings.asset
-          fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\EditorSettings.asset"
-          projectPath: ProjectSettings\EditorSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\GraphicsSettings.asset
-        label: GraphicsSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\GraphicsSettings.asset
-          fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\GraphicsSettings.asset"
-          projectPath: ProjectSettings\GraphicsSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\InputManager.asset
-        label: InputManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\InputManager.asset
-          fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\InputManager.asset"
-          projectPath: ProjectSettings\InputManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\MemorySettings.asset
-        label: MemorySettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\MemorySettings.asset
-          fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\MemorySettings.asset"
-          projectPath: ProjectSettings\MemorySettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\NavMeshAreas.asset
-        label: NavMeshAreas.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\NavMeshAreas.asset
-          fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\NavMeshAreas.asset"
-          projectPath: ProjectSettings\NavMeshAreas.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\PackageManagerSettings.asset
-        label: PackageManagerSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\PackageManagerSettings.asset
-          fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\PackageManagerSettings.asset"
-          projectPath: ProjectSettings\PackageManagerSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\Packages
-        label: Packages
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: ProjectSettings\Packages\com.unity.testtools.codecoverage
-        label: com.unity.testtools.codecoverage
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
-        label: Settings.json
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
-          fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\Packages\\com.unity.testtools.codecoverage\\Settings.json"
-          projectPath: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\Physics2DSettings.asset
-        label: Physics2DSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\Physics2DSettings.asset
-          fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\Physics2DSettings.asset"
-          projectPath: ProjectSettings\Physics2DSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\PresetManager.asset
-        label: PresetManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\PresetManager.asset
-          fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\PresetManager.asset"
-          projectPath: ProjectSettings\PresetManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\ProjectSettings.asset
-        label: ProjectSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\ProjectSettings.asset
-          fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\ProjectSettings.asset"
-          projectPath: ProjectSettings\ProjectSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\QualitySettings.asset
-        label: QualitySettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\QualitySettings.asset
-          fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\QualitySettings.asset"
-          projectPath: ProjectSettings\QualitySettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\TagManager.asset
-        label: TagManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\TagManager.asset
-          fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\TagManager.asset"
-          projectPath: ProjectSettings\TagManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\TimeManager.asset
-        label: TimeManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\TimeManager.asset
-          fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\TimeManager.asset"
-          projectPath: ProjectSettings\TimeManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\UnityConnectSettings.asset
-        label: UnityConnectSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\UnityConnectSettings.asset
-          fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\UnityConnectSettings.asset"
-          projectPath: ProjectSettings\UnityConnectSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\VersionControlSettings.asset
-        label: VersionControlSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\VersionControlSettings.asset
-          fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\VersionControlSettings.asset"
-          projectPath: ProjectSettings\VersionControlSettings.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\VFXManager.asset
-        label: VFXManager.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\VFXManager.asset
-          fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\VFXManager.asset"
-          projectPath: ProjectSettings\VFXManager.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: ProjectSettings\XRSettings.asset
-        label: XRSettings.asset
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: ProjectSettings\XRSettings.asset
-          fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\XRSettings.asset"
-          projectPath: ProjectSettings\XRSettings.asset
+          path: ProjectSettings\ProjectVersion.txt
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\ProjectSettings\\ProjectVersion.txt"
+          projectPath: ProjectSettings\ProjectVersion.txt
           originalPath: 
           indexStatus: 1
           workTreeStatus: 1
@@ -1669,65 +1045,12 @@ MonoBehaviour:
         isLocked: 0
         gitStatusEntry:
           path: UserSettings\EditorUserSettings.asset
-          fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\UserSettings\\EditorUserSettings.asset"
+          fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+            Folder\\Projet\\LittlePrincess\\UserSettings\\EditorUserSettings.asset"
           projectPath: UserSettings\EditorUserSettings.asset
           originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: UserSettings\Layouts
-        label: Layouts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
           indexStatus: 0
-          workTreeStatus: 0
-      - path: UserSettings\Layouts\default-2021.dwlt
-        label: default-2021.dwlt
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings\Layouts\default-2021.dwlt
-          fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\UserSettings\\Layouts\\default-2021.dwlt"
-          projectPath: UserSettings\Layouts\default-2021.dwlt
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: UserSettings\Search.settings
-        label: Search.settings
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: UserSettings\Search.settings
-          fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\UserSettings\\Search.settings"
-          projectPath: UserSettings\Search.settings
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
+          workTreeStatus: 3
       selectedNode:
         path: 
         label: 
@@ -1748,192 +1071,82 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
-    - path: Assets\Scenes.meta
-      fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\Assets\\Scenes.meta"
-      projectPath: Assets\Scenes.meta
+    - path: Assets\Resources.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Resources.meta"
+      projectPath: Assets\Resources.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: Assets\Scenes\SampleScene.unity
-      fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\Assets\\Scenes\\SampleScene.unity"
-      projectPath: Assets\Scenes\SampleScene.unity
+    - path: Assets\Resources\BillingMode.json
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Resources\\BillingMode.json"
+      projectPath: Assets\Resources\BillingMode.json
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: Assets\Scenes\SampleScene.unity.meta
-      fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\Assets\\Scenes\\SampleScene.unity.meta"
-      projectPath: Assets\Scenes\SampleScene.unity.meta
+    - path: Assets\Resources\BillingMode.json.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Resources\\BillingMode.json.meta"
+      projectPath: Assets\Resources\BillingMode.json.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
-    - path: Packages\manifest.json
-      fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\Packages\\manifest.json"
-      projectPath: Packages\manifest.json
+    - path: Assets\Scenes\LittlePrincess.unity
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Scenes\\LittlePrincess.unity"
+      projectPath: Assets\Scenes\LittlePrincess.unity
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets\Scenes\LittlePrincess.unity.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Scenes\\LittlePrincess.unity.meta"
+      projectPath: Assets\Scenes\LittlePrincess.unity.meta
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: Assets\Scenes\Planet 1.unity
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Scenes\\Planet 1.unity"
+      projectPath: Assets\Scenes\Planet 1.unity
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\Scenes\Planet 1.unity.meta
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Assets\\Scenes\\Planet 1.unity.meta"
+      projectPath: Assets\Scenes\Planet 1.unity.meta
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
     - path: Packages\packages-lock.json
-      fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\Packages\\packages-lock.json"
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\Packages\\packages-lock.json"
       projectPath: Packages\packages-lock.json
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\AudioManager.asset
-      fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\AudioManager.asset"
-      projectPath: ProjectSettings\AudioManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\boot.config
-      fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\boot.config"
-      projectPath: ProjectSettings\boot.config
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\ClusterInputManager.asset
-      fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\ClusterInputManager.asset"
-      projectPath: ProjectSettings\ClusterInputManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\DynamicsManager.asset
-      fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\DynamicsManager.asset"
-      projectPath: ProjectSettings\DynamicsManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\EditorBuildSettings.asset
-      fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\EditorBuildSettings.asset"
-      projectPath: ProjectSettings\EditorBuildSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\EditorSettings.asset
-      fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\EditorSettings.asset"
-      projectPath: ProjectSettings\EditorSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\GraphicsSettings.asset
-      fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\GraphicsSettings.asset"
-      projectPath: ProjectSettings\GraphicsSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\InputManager.asset
-      fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\InputManager.asset"
-      projectPath: ProjectSettings\InputManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\MemorySettings.asset
-      fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\MemorySettings.asset"
-      projectPath: ProjectSettings\MemorySettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\NavMeshAreas.asset
-      fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\NavMeshAreas.asset"
-      projectPath: ProjectSettings\NavMeshAreas.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\PackageManagerSettings.asset
-      fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\PackageManagerSettings.asset"
-      projectPath: ProjectSettings\PackageManagerSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
-      fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\Packages\\com.unity.testtools.codecoverage\\Settings.json"
-      projectPath: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\Physics2DSettings.asset
-      fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\Physics2DSettings.asset"
-      projectPath: ProjectSettings\Physics2DSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\PresetManager.asset
-      fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\PresetManager.asset"
-      projectPath: ProjectSettings\PresetManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\ProjectSettings.asset
-      fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\ProjectSettings.asset"
-      projectPath: ProjectSettings\ProjectSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\QualitySettings.asset
-      fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\QualitySettings.asset"
-      projectPath: ProjectSettings\QualitySettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\TagManager.asset
-      fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\TagManager.asset"
-      projectPath: ProjectSettings\TagManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\TimeManager.asset
-      fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\TimeManager.asset"
-      projectPath: ProjectSettings\TimeManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\UnityConnectSettings.asset
-      fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\UnityConnectSettings.asset"
-      projectPath: ProjectSettings\UnityConnectSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\VersionControlSettings.asset
-      fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\VersionControlSettings.asset"
-      projectPath: ProjectSettings\VersionControlSettings.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\VFXManager.asset
-      fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\VFXManager.asset"
-      projectPath: ProjectSettings\VFXManager.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: ProjectSettings\XRSettings.asset
-      fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\ProjectSettings\\XRSettings.asset"
-      projectPath: ProjectSettings\XRSettings.asset
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\ProjectSettings\\ProjectVersion.txt"
+      projectPath: ProjectSettings\ProjectVersion.txt
       originalPath: 
       indexStatus: 1
       workTreeStatus: 1
     - path: UserSettings\EditorUserSettings.asset
-      fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\UserSettings\\EditorUserSettings.asset"
+      fullPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+        Folder\\Projet\\LittlePrincess\\UserSettings\\EditorUserSettings.asset"
       projectPath: UserSettings\EditorUserSettings.asset
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings\Layouts\default-2021.dwlt
-      fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\UserSettings\\Layouts\\default-2021.dwlt"
-      projectPath: UserSettings\Layouts\default-2021.dwlt
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings\Search.settings
-      fullPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project\\UserSettings\\Search.settings"
-      projectPath: UserSettings\Search.settings
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    changedFilesText: 30 changed files
+      indexStatus: 0
+      workTreeStatus: 3
+    changedFilesText: 10 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-03-15T15:12:02.415+01:00
+      updatedTimeString: 2023-03-22T18:19:24.963+01:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-03-15T15:16:32.282+01:00
+      updatedTimeString: 2023-03-22T18:40:49.570+01:00
       cacheType: 6
     lastLocksChangedEvent:
       updatedTimeString: 0001-01-01T00:00:00.000+00:00
@@ -2478,30 +1691,30 @@ MonoBehaviour:
       m_Text: Release Lock (forced)
       m_Image: {fileID: 0}
       m_Tooltip: 
-  hasRemote: 0
-  currentRemoteName: 
-  currentBranch: master
-  currentRemoteUrl: No remote configured
+  hasRemote: 1
+  currentRemoteName: origin
+  currentBranch: main
+  currentRemoteUrl: https://github.com/LeoKitabdjian/LittlePrincess/
   statusAhead: 0
   statusBehind: 0
   hasItemsToCommit: 1
-  isTrackingRemoteBranch: 0
+  isTrackingRemoteBranch: 1
   currentBranchContent:
-    m_Text: master
+    m_Text: main
     m_Image: {fileID: 0}
     m_Tooltip: Active branch
   currentRemoteUrlContent:
-    m_Text: No remote configured
+    m_Text: https://github.com/LeoKitabdjian/LittlePrincess/
     m_Image: {fileID: 0}
-    m_Tooltip: Add a remote in the Settings tab
+    m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-03-15T15:12:02.415+01:00
+    updatedTimeString: 2023-03-22T14:20:58.103+01:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-03-15T15:16:32.301+01:00
+    updatedTimeString: 2023-03-22T14:20:58.948+01:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-03-15T15:16:32.282+01:00
+    updatedTimeString: 2023-03-22T14:43:10.081+01:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -2524,7 +1737,7 @@ MonoBehaviour:
   appManagerProgressValue: 1
   appManagerProgressMessage: 
   primaryConnectionUsername: 
---- !u!114 &13
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2544,10 +1757,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 7.3333335
-    y: 562
-    width: 1087.6666
-    height: 309.6667
+    x: 0
+    y: 506.4
+    width: 1171
+    height: 277
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -2565,22 +1778,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Prefabs/Kaio/source
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Prefabs/Kaio/source
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: "C:\\Users\\L\xE9o\\Documents\\SI4\\Unity\\Projet\\My project"
+  m_LastProjectPath: "D:\\Perso\\Biblioth\xE8que\\Documents\\Polytech Nice\\4A\\S8\\IHM\\New
+    Folder\\Projet\\LittlePrincess"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ba5a0000
-    m_LastClickedID: 23226
-    m_ExpandedIDs: 00000000ba5a000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 246e0000
+    m_LastClickedID: 28196
+    m_ExpandedIDs: 000000004c6100004e61000050610000526100005461000056610000586100005a6100005c6100005e61000060610000626100006461000066610000686100006a6100006c6100006e6100007061000084610000206e000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2608,7 +1822,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 000000004c6100004e61000050610000526100005461000056610000586100005a6100005c6100005e61000060610000626100006461000066610000686100006a6100006c6100006e61000070610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2635,7 +1849,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -2652,7 +1866,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -2664,7 +1878,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &14
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2684,10 +1898,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1096
-    y: 80
-    width: 335.66675
-    height: 791.6667
+    x: 1172
+    y: 73.6
+    width: 363
+    height: 709.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -2705,7 +1919,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &15
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2725,10 +1939,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 7.3333335
-    y: 80
-    width: 269
-    height: 461
+    x: 0
+    y: 73.6
+    width: 289.4
+    height: 411.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -2736,9 +1950,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 34fbffff
+      m_SelectedIDs: 46bfffff
+      m_LastClickedID: -16570
+      m_ExpandedIDs: 4abfffff18d1ffff2ed1ffff38d1ffff3ed1ffff48d1ffff52d1ffff58d1ffff62d1ffff6cd1ffff72d1ffff7cd1ffff86d1ffff8cd1ffff96d1ffffa0d1ffffaad1ffffb0d1ffffbed1ffffc4d1ffffc8d1ffffd0d1ffffd8d1ffffe0d1ffffe8d1fffff0d1fffff4d1fffff8d1ffff00d2ffff04d2ffff08d2ffff10d2ffff14d2ffff18d2ffff20d2ffff24d2ffff28d2ffff30d2ffff34d2ffff38d2ffff3cd2ffff42d2ffff48d2ffff4cd2ffff62d2ffff68d2ffff72d2ffff78d2ffff7ed2ffff84d2ffff8ad2ffff90d2ffff9ad2ffffa0d2ffffaad2ffffb4d2ffffbad2ffffc4d2ffffcad2ffffd0d2ffffd6d2ffffdcd2ffffe2d2ffffecd2fffff2d2fffffcd2ffff20d3ffff32d3ffff36d3ffff3ed3ffff46d3ffff4ed3ffff56d3ffff5ed3ffff62d3ffff66d3ffff6ed3ffff72d3ffff76d3ffff7ed3ffff82d3ffff86d3ffff8ed3ffff92d3ffff96d3ffff9ed3ffffa2d3ffffa6d3ffffaad3ffffb0d3ffffb6d3ffffbad3ffffc0d3ffffc4d3ffffc8d3ffffd6d3ffffdcd3ffffe2d3fffff0d3fffff6d3fffffcd3ffff02d4ffff06d4ffffb4d8ffff3ceeffff4af2ffff36fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2754,7 +1968,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 4}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -2762,7 +1976,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &16
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2782,10 +1996,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 277.33334
-    y: 80
-    width: 816.6666
-    height: 461
+    x: 290.4
+    y: 73.6
+    width: 879.6
+    height: 411.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -2795,8 +2009,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -98.66669, y: -26}
+      snapOffset: {x: -100, y: -25.600006}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -2817,7 +2031,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 24.8}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-scene-view-toolbar
@@ -3010,6 +2224,28 @@ MonoBehaviour:
       id: Scene View/Tilemap Palette Helper
       index: 12
       layout: 4
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Open Tile Palette
+      index: 2
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap Focus
+      index: 3
+      layout: 4
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
   m_Gizmos: 1
   m_OverrideSceneCullingMask: 6917529027641081856
@@ -3020,9 +2256,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: -260.65317, y: -7.476564, z: -182.5329}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: -260.65317, y: -7.476564, z: -182.5329}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -3069,13 +2305,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Target: {x: 0.102241956, y: -0.7801402, z: 0.13231075, w: 0.60284674}
     speed: 2
-    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Value: {x: 0.10224184, y: -0.78013927, z: 0.13231058, w: 0.602846}
   m_Size:
-    m_Target: 10
+    m_Target: 31.089098
     speed: 2
-    m_Value: 10
+    m_Value: 31.089098
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -3100,7 +2336,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3120,10 +2356,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 507
-    y: 94
-    width: 1532
-    height: 790
+    x: 290.4
+    y: 73.6
+    width: 879.6
+    height: 411.8
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -3134,10 +2370,10 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1532, y: 769}
+  m_TargetSize: {x: 879.6, y: 390.8}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
-  m_RenderIMGUI: 0
+  m_RenderIMGUI: 1
   m_EnterPlayModeBehavior: 0
   m_UseMipMap: 0
   m_VSyncEnabled: 0
@@ -3149,10 +2385,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -510.6667
-    m_HBaseRangeMax: 510.6667
-    m_VBaseRangeMin: -256.33334
-    m_VBaseRangeMax: 256.33334
+    m_HBaseRangeMin: -351.84
+    m_HBaseRangeMax: 351.84
+    m_VBaseRangeMin: -156.31999
+    m_VBaseRangeMax: 156.31999
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -3161,7 +2397,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -3170,29 +2406,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1532
-      height: 769
+      width: 879.6
+      height: 390.8
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 766, y: 384.5}
+    m_Translation: {x: 439.8, y: 195.4}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -766
-      y: -384.5
-      width: 1532
-      height: 769
+      x: -439.8
+      y: -195.4
+      width: 879.6
+      height: 390.8
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 2298, y: 1185}
+  m_LastWindowPixelSize: {x: 1099.5, y: 514.75}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &18
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3212,10 +2448,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2249
-    y: 726.5
-    width: 920
-    height: 250
+    x: 0
+    y: 506.4
+    width: 1171
+    height: 277
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
