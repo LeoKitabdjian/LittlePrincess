@@ -54,7 +54,6 @@ namespace UnityChan
 		public Transform gravityTarget;
 		public float autoOrientSpeed = 1f;
 
-
         // 初期化
         void Start ()
 		{
@@ -81,11 +80,9 @@ namespace UnityChan
 			anim.speed = animSpeed;								// Animatorのモーション再生速度に animSpeedを設定する
 			currentBaseState = anim.GetCurrentAnimatorStateInfo (0);	// 参照用のステート変数にBase Layer (0)の現在のステートを設定する
 			//rb.useGravity = true;//ジャンプ中に重力を切るので、それ以外は重力の影響を受けるようにする
-		
-		
-		
-			// 以下、キャラクターの移動処理
-			velocity = new Vector3 (0, 0, v);		// 上下のキー入力からZ軸方向の移動量を取得
+
+            // 以下、キャラクターの移動処理
+            velocity = new Vector3 (0, 0, v);		// 上下のキー入力からZ軸方向の移動量を取得
 			// キャラクターのローカル空間での方向に変換
 			velocity = transform.TransformDirection (velocity);
 			//以下のvの閾値は、Mecanim側のトランジションと一緒に調整する

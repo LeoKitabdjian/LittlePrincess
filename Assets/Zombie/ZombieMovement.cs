@@ -7,7 +7,7 @@ public class ZombieMovement : MonoBehaviour
 
     public float gravity = 9.81f;
     public Transform gravityTarget;
-    public float autoOrientSpeed = 0f;
+    public float autoOrientSpeed = 1f;
     public List<ZombieCheckpoint> targets;
     public float speed = 1.0f;
     private Rigidbody rb;
@@ -29,6 +29,7 @@ public class ZombieMovement : MonoBehaviour
 
     public void ZombieCheckpointActivated(ZombieMovement z)
     {
+        transform.Rotate(0, 180, 0);
         if (currentCheckPoint >= targets.Count - 1)
         {
             currentCheckPoint = 0;
@@ -43,21 +44,26 @@ public class ZombieMovement : MonoBehaviour
     void FixedUpdate()
     {
         var step = speed * Time.deltaTime;
-        transform.position = Vector3.MoveTowards(transform.position, targets[currentCheckPoint].transform.position, step);
-        transform.LookAt(targets[currentCheckPoint].transform);
+        transform.position = Vector3.MoveTowards(transform.position, Target().transform.position, step);
         ProcessGravity();
+        //transform.LookAt(targets[currentCheckPoint].transform);
     }
 
     void ProcessGravity()
     {
         Vector3 diff = transform.position - gravityTarget.position;
         rb.AddForce(-diff.normalized * gravity * (rb.mass));
-        //AutoOrient(-diff);
+        AutoOrient(-diff);
     }
 
     void AutoOrient(Vector3 down)
     {
         Quaternion orientationDirection = Quaternion.FromToRotation(-transform.up, down) * transform.rotation;
         transform.rotation = Quaternion.Slerp(transform.rotation, orientationDirection, autoOrientSpeed * Time.deltaTime);
+    }
+
+    ZombieCheckpoint Target()
+    {
+        return targets[currentCheckPoint];
     }
 }

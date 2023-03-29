@@ -10,6 +10,12 @@ public class ZombieCheckpoint : MonoBehaviour
     void OnTriggerEnter(Collider collider)
     {
         ZombieMovement zombie = collider.gameObject.GetComponent<ZombieMovement>();
-        onZombieCheckpointEnter.Invoke(zombie);
+        if (zombie != null)
+        {
+            if (zombie.targets.Contains(this))
+            {
+                onZombieCheckpointEnter.Invoke(zombie);
+            }
+        }
     }
 }
