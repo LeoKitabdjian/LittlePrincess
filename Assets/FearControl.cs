@@ -7,6 +7,7 @@ public class FearControl : MonoBehaviour
     public bool feared = false;
     public float fearAmount = 0f;
     FearAura[] fearAuras;
+    public FearBar fearBar;
 
     // Start is called before the first frame update
     void Start()
@@ -36,6 +37,12 @@ public class FearControl : MonoBehaviour
         {
             fearAmount += 0.33f;
         }
-        Debug.Log(fearAmount);
+        if (fearAmount >= 100)
+        {
+            this.transform.position = new Vector3(5, 73.2f, 8);
+            this.transform.rotation = new Quaternion(0, -180, 12, 0);
+            fearAmount = 0f;
+        }
+        fearBar.setFear(fearAmount);
     }
 }
