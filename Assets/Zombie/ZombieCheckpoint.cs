@@ -5,11 +5,18 @@ using UnityEngine.Events;
 
 public class ZombieCheckpoint : MonoBehaviour
 {
-    public UnityEvent<ZombieMovement> onZombieCheckpointEnter;
+    public UnityEvent<ZombieMovement, ZombieCheckpoint> onZombieCheckpointEnter;
+    public bool rotate;
 
     void OnTriggerEnter(Collider collider)
     {
         ZombieMovement zombie = collider.gameObject.GetComponent<ZombieMovement>();
-        onZombieCheckpointEnter.Invoke(zombie);
+        if (zombie != null)
+        {
+            if (zombie.targets.Contains(this))
+            {
+                onZombieCheckpointEnter.Invoke(zombie, this);
+            }
+        }
     }
 }

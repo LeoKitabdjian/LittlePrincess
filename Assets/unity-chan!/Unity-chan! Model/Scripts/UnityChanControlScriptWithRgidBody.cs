@@ -54,7 +54,6 @@ namespace UnityChan
 		public Transform gravityTarget;
 		public float autoOrientSpeed = 1f;
 
-
         // 初期化
         void Start ()
 		{
@@ -81,11 +80,9 @@ namespace UnityChan
 			anim.speed = animSpeed;								// Animatorのモーション再生速度に animSpeedを設定する
 			currentBaseState = anim.GetCurrentAnimatorStateInfo (0);	// 参照用のステート変数にBase Layer (0)の現在のステートを設定する
 			//rb.useGravity = true;//ジャンプ中に重力を切るので、それ以外は重力の影響を受けるようにする
-		
-		
-		
-			// 以下、キャラクターの移動処理
-			velocity = new Vector3 (0, 0, v);		// 上下のキー入力からZ軸方向の移動量を取得
+
+            // 以下、キャラクターの移動処理
+            velocity = new Vector3 (0, 0, v);		// 上下のキー入力からZ軸方向の移動量を取得
 			// キャラクターのローカル空間での方向に変換
 			velocity = transform.TransformDirection (velocity);
 			//以下のvの閾値は、Mecanim側のトランジションと一緒に調整する
@@ -199,13 +196,13 @@ namespace UnityChan
 
 		void OnGUI ()
 		{
-			GUI.Box (new Rect (Screen.width - 260, 10, 250, 150), "Interaction");
+			GUI.Box (new Rect (Screen.width - 260, 10, 250, 70), "Interaction");
 			GUI.Label (new Rect (Screen.width - 245, 30, 250, 30), "Up/Down Arrow : Go Forwald/Go Back");
 			GUI.Label (new Rect (Screen.width - 245, 50, 250, 30), "Left/Right Arrow : Turn Left/Turn Right");
-			GUI.Label (new Rect (Screen.width - 245, 70, 250, 30), "Hit Space key while Running : Jump");
-			GUI.Label (new Rect (Screen.width - 245, 90, 250, 30), "Hit Spase key while Stopping : Rest");
-			GUI.Label (new Rect (Screen.width - 245, 110, 250, 30), "Left Control : Front Camera");
-			GUI.Label (new Rect (Screen.width - 245, 130, 250, 30), "Alt : LookAt Camera");
+			//GUI.Label (new Rect (Screen.width - 245, 70, 250, 30), "Hit Space key while Running : Jump");
+			//GUI.Label (new Rect (Screen.width - 245, 90, 250, 30), "Hit Spase key while Stopping : Rest");
+			//GUI.Label (new Rect (Screen.width - 245, 110, 250, 30), "Left Control : Front Camera");
+			//GUI.Label (new Rect (Screen.width - 245, 130, 250, 30), "Alt : LookAt Camera");
 		}
 
 
