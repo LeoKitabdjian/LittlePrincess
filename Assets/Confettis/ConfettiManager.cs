@@ -12,9 +12,8 @@ public class ConfettiManager : MonoBehaviour
         //particleSystem.Play(true);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void PlayConfetti()
     {
-        
+        particleSystem.Play(true);
     }
 }
