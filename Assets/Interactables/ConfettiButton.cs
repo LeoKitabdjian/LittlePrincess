@@ -16,10 +16,7 @@ public class ConfettiButton : MonoBehaviour, IInteractable
 
     public float fadeSpeed;
 
-    void Start()
-    {
-        StartCoroutine(FadeToBlack());
-    }
+    public AudioSource bgMusic;
 
     public bool Interact(Interactor interactor)
     {
@@ -37,11 +34,17 @@ public class ConfettiButton : MonoBehaviour, IInteractable
     {
         Color objectColor = blackScreen.color;
         float fadeAmount;
+        float soundValue;
         while (blackScreen.color.a < 1) 
         {
+            //Screen fade to black
             fadeAmount = objectColor.a + (fadeSpeed * Time.deltaTime);
             objectColor = new Color(objectColor.r, objectColor.g, objectColor.b, fadeAmount);
             blackScreen.color = objectColor;
+
+            //Reduce background music volume
+            soundValue = bgMusic.volume - (fadeSpeed / 10 * Time.deltaTime);
+            bgMusic.volume = soundValue;
             yield return null;
         }
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

@@ -12537,6 +12537,7 @@ MonoBehaviour:
   confetti: {fileID: 2116244569}
   blackScreen: {fileID: 168510887}
   fadeSpeed: 0.15
+  bgMusic: {fileID: 836382139}
 --- !u!65 &1822850340
 BoxCollider:
   m_ObjectHideFlags: 0
