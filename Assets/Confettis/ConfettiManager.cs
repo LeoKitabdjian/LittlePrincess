@@ -5,6 +5,7 @@ using UnityEngine;
 public class ConfettiManager : MonoBehaviour
 {
     public ParticleSystem particleSystem;
+    public AudioSource conffetiSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +15,7 @@ public class ConfettiManager : MonoBehaviour
 
     public void PlayConfetti()
     {
+        conffetiSound.Play();
         particleSystem.Play(true);
     }
 }
