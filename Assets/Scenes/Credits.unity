@@ -412,7 +412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bg: {fileID: 133200895}
-  fadeSpeed: 0.15
+  fadeSpeed: 0.3
 --- !u!1 &799565615
 GameObject:
   m_ObjectHideFlags: 0

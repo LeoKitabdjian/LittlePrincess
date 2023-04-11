@@ -27,6 +27,7 @@ public class InvertedFade : MonoBehaviour
             bg.color = objectColor;
             yield return null;
         }
+        Destroy(bg);
     }
 
 }
