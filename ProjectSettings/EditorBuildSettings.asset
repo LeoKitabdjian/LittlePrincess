@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Planet 1 bis.unity
     guid: f7caf51f00b6633428da65e97fa711da
   - enabled: 1
+    path: Assets/Scenes/Planet 2.unity
+    guid: 862df3bea04c2964e8fd0eee2c9184ef
+  - enabled: 1
     path: Assets/Scenes/Planet 3.unity
     guid: e299140089caa414db574e9bbfe4a674
   - enabled: 1
