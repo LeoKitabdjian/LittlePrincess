@@ -110,6 +110,7 @@ public class RaceManager : MonoBehaviour
         {
             Debug.Log(car.name + " a fini la course !");
             ToggleRoadVisibility();
+            UpdateLapText(car);
         }
         else
         {
