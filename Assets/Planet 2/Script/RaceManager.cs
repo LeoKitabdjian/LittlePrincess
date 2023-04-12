@@ -19,6 +19,16 @@ public class RaceManager : MonoBehaviour
     private bool raceStarted = false;
     private Dictionary<CarBaseController, int> carLapCount;
 
+    public GameObject road;
+
+    public void ToggleRoadVisibility()
+    {
+        if (road != null)
+        {
+            road.SetActive(!road.activeSelf);
+        }
+    }
+
     void Start()
     {
         if (!waypointManager)
@@ -45,6 +55,7 @@ public class RaceManager : MonoBehaviour
 
         countdownText.gameObject.SetActive(true);
         StartCoroutine(StartCountdown());
+        ToggleRoadVisibility();
     }
 
     void Update()
@@ -98,7 +109,7 @@ public class RaceManager : MonoBehaviour
         if (carLapCount[car] >= laps)
         {
             Debug.Log(car.name + " a fini la course !");
-            car.enabled = false; // Désactive le contrôle de la voiture à la fin de la course.
+            ToggleRoadVisibility();
         }
         else
         {
