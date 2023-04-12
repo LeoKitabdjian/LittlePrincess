@@ -15202,7 +15202,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 772034648}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -193.07, y: -24.1, z: -156.16}
+  m_LocalPosition: {x: -193.07, y: 7.010002, z: -156.16}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15427,7 +15427,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832858498}
   m_LocalRotation: {x: -0, y: 0.5943839, z: -0, w: 0.8041815}
-  m_LocalPosition: {x: -134.5, y: -30.4, z: -40.2}
+  m_LocalPosition: {x: -134.5, y: 0.920002, z: -40.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20516,7 +20516,7 @@ MonoBehaviour:
   rotationSpeed: 80
   speedDecayFactor: 0.975
   steerSensitivity: 0.01
-  distanceToWaypointThreshold: 1
+  distanceToWaypointThreshold: 3
   rotationSmoothness: 5
   waypointManager: {fileID: 1238265508}
 --- !u!65 &1166310132
@@ -25402,7 +25402,7 @@ MonoBehaviour:
   - {fileID: 788961160}
   - {fileID: 1710021230}
   - {fileID: 1521647521}
-  waypointRadius: 3
+  waypointRadius: 5
 --- !u!4 &1238265509
 Transform:
   m_ObjectHideFlags: 0
@@ -26098,7 +26098,7 @@ MonoBehaviour:
   rotationSpeed: 80
   speedDecayFactor: 0.975
   steerSensitivity: 0.01
-  distanceToWaypointThreshold: 1
+  distanceToWaypointThreshold: 3
   rotationSmoothness: 5
   waypointManager: {fileID: 1238265508}
 --- !u!65 &1349412330
@@ -31153,7 +31153,7 @@ MonoBehaviour:
   rotationSpeed: 80
   speedDecayFactor: 0.975
   steerSensitivity: 0.01
-  distanceToWaypointThreshold: 1
+  distanceToWaypointThreshold: 3
   rotationSmoothness: 5
   waypointManager: {fileID: 1238265508}
 --- !u!65 &1485131539
@@ -31425,7 +31425,7 @@ MonoBehaviour:
   rotationSpeed: 80
   speedDecayFactor: 0.975
   steerSensitivity: 0.01
-  distanceToWaypointThreshold: 1
+  distanceToWaypointThreshold: 3
   rotationSmoothness: 5
   waypointManager: {fileID: 1238265508}
 --- !u!114 &1600752177
@@ -31482,7 +31482,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1620220249}
   m_LocalRotation: {x: -0, y: 0.44549668, z: -0, w: 0.89528364}
-  m_LocalPosition: {x: -165.7, y: -35.5, z: -51.6}
+  m_LocalPosition: {x: -165.7, y: 0.920002, z: -51.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -31606,7 +31606,7 @@ MonoBehaviour:
   rotationSpeed: 80
   speedDecayFactor: 0.975
   steerSensitivity: 0.01
-  distanceToWaypointThreshold: 1
+  distanceToWaypointThreshold: 3
   rotationSmoothness: 5
   waypointManager: {fileID: 1238265508}
 --- !u!65 &1721468194
