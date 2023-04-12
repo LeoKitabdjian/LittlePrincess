@@ -32,9 +32,10 @@ namespace UnityChan
 			// 各参照の初期化
 			anim = GetComponent<Animator> ();
 			currentState = anim.GetCurrentAnimatorStateInfo (0);
-			previousState = currentState;
-			// ランダム判定用関数をスタートする
-			StartCoroutine ("RandomChange");
+            previousState = currentState;
+            anim.SetBool("Jump", true);
+            // ランダム判定用関数をスタートする
+            StartCoroutine("RandomChange");
 		}
 	
 		// Update is called once per frame
