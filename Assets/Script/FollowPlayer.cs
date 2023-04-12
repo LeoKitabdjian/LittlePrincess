@@ -8,15 +8,25 @@ public class FollowPlayer : MonoBehaviour
     public float smoothSpeed = 0.125f;
     public Vector3 locationOffset;
     public Vector3 rotationOffset;
+    public bool followPlayer;
     // Update is called once per frame
+
+    void Start()
+    {
+        followPlayer = false;
+    }
+
     void Update()
     {
-        Vector3 desiredPosition = target.position + target.rotation * locationOffset;
-        Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
-        transform.position = smoothedPosition;
+        if (followPlayer)
+        {
+            Vector3 desiredPosition = target.position + target.rotation * locationOffset;
+            Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
+            transform.position = smoothedPosition;
 
-        Quaternion desiredrotation = target.rotation * Quaternion.Euler(rotationOffset);
-        Quaternion smoothedrotation = Quaternion.Lerp(transform.rotation, desiredrotation, smoothSpeed);
-        transform.rotation = smoothedrotation;
+            Quaternion desiredrotation = target.rotation * Quaternion.Euler(rotationOffset);
+            Quaternion smoothedrotation = Quaternion.Lerp(transform.rotation, desiredrotation, smoothSpeed);
+            transform.rotation = smoothedrotation;
+        }
     }
 }
