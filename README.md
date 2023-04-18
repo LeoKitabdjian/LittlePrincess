@@ -14,7 +14,7 @@
 - Configurer Build Settings (sinon les changements de scenes ne fonctionneront pas)
   - Dans la barre des tâches, cliquer sur File, Build Settings...
   - Choisir comme plateforme Windows, Mac, Linux
-  - Mettre dans l'ordre les scenes suivantes dans "Scenes in Build":
+  - Mettre dans l'ordre les scenes suivantes (se trouvant dans ./assets/scenes) dans "Scenes in Build":
     - Asteroid
     - Planet 1 bis
     - Planet 2
