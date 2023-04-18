@@ -1,4 +1,4 @@
-# LittlePrincess
+# LittlePrincess (LD1-Farineau-Faucher-Kitabdjian)
 
 https://unice-my.sharepoint.com/:u:/g/personal/vinh_faucher_etu_unice_fr/ETQUfd6Q--ZDrOUR2Bc6JV8BRjvG2r01Q-UKxgL8nVOJ7w?e=hTp9EH
 
