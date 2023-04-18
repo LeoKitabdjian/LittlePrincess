@@ -42,7 +42,9 @@
 - https://www.youtube.com/watch?v=elBotaGRTA4
 - https://www.youtube.com/watch?v=THmW4YolDok
 - https://www.youtube.com/watch?v=BLfNP4Sc_iA
-
+- https://www.youtube.com/watch?v=x4mySebugl0
+- https://www.youtube.com/watch?v=AioskAgcU2U
+- https://www.youtube.com/watch?v=IffdcuHrfIE
 
 ### Bande sonore :
 - https://www.youtube.com/watch?v=FFdEoZUZ4nw&t=46s
