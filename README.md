@@ -10,6 +10,7 @@
   - Chercher "Input System" dans "Packages"
   - Cliquer dessus puis appuyer sur "Install" en bas à droite de la fenêtre
   - Redémarrer Unity
+  - Effectuer les mêmes étapes pour installer TextMeshPro
 - Configurer Build Settings (sinon les changements de scenes ne fonctionneront pas)
   - Dans la barre des tâches, cliquer sur File, Build Settings...
   - Choisir comme plateforme Windows, Mac, Linux
