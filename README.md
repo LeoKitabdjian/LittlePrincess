@@ -28,19 +28,24 @@
 ## Sources
 
 ### Modèles:
-https://assetstore.unity.com/packages/3d/characters/unity-chan-model-18705
-https://assetstore.unity.com/packages/vfx/particles/teleporter-25645#content
-https://sketchfab.com/3d-models/sign-592ba375a7194290affed512a06c562a
-https://sketchfab.com/3d-models/kamisama-planet-b0c20b26815f43558b863d147ac3c709
-https://sketchfab.com/3d-models/kamisama-no-shinden-b6dbdf5e61c845d5925d5dd653c493cb
+- https://assetstore.unity.com/packages/3d/characters/unity-chan-model-18705
+- https://assetstore.unity.com/packages/vfx/particles/teleporter-25645#content
+- https://sketchfab.com/3d-models/sign-592ba375a7194290affed512a06c562a
+- https://sketchfab.com/3d-models/kamisama-planet-b0c20b26815f43558b863d147ac3c709
+- https://sketchfab.com/3d-models/kamisama-no-shinden-b6dbdf5e61c845d5925d5dd653c493cb
+- https://assetstore.unity.com/packages/3d/characters/humanoids/zombie-30232
+- https://assetstore.unity.com/packages/3d/props/old-lamp-95730
+- https://sketchfab.com/3d-models/industrial-button-a7e7c1772d764c3b913cccac66932236
 
 
 ### Tutos:
-https://www.youtube.com/watch?v=elBotaGRTA4
-
+- https://www.youtube.com/watch?v=elBotaGRTA4
+- https://www.youtube.com/watch?v=THmW4YolDok
+- https://www.youtube.com/watch?v=BLfNP4Sc_iA
 
 
 ### Bande sonore :
-https://www.youtube.com/watch?v=FFdEoZUZ4nw&t=46s
-https://www.youtube.com/watch?v=cscuCIzItZQ
+- https://www.youtube.com/watch?v=FFdEoZUZ4nw&t=46s
+- https://www.youtube.com/watch?v=cscuCIzItZQ
+- https://www.youtube.com/watch?v=xAO3x-Uhfoo
 
